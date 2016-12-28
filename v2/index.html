@@ -1,0 +1,548 @@
+<html>
+<head>
+<title>Saladois.hpg.com.br</title>
+<link rel="stylesheet" href="link.css">
+<script>
+function haha() {
+  var todosBanners = [
+    'desculpe',
+    'sabeoqe',
+    'especiais',
+    'person',
+    'barflash',
+    'eivoce',
+    'esquilos',
+    'saladois'
+  ];
+  var bannerEscolhido = todosBanners[Math.floor(Math.random() * todosBanners.length)];
+
+  var flashEl = document.getElementById('banner-top-flash');
+  var videoEl = document.getElementById('banner-top-video');
+
+  // flashEl.src = bannerEscolhido + '.swf';
+  flashEl.getElementsByTagName('param')[0].value = bannerEscolhido + '.swf';
+
+  ['webm', 'mp4'].forEach(function(type) {
+    var sourceEl = document.createElement('source');
+    sourceEl.setAttribute('type', 'video/' + type);
+    sourceEl.setAttribute('src', bannerEscolhido + '.' + type);
+
+    videoEl.appendChild(sourceEl);
+  });
+}
+
+</script>
+</head>
+
+<body link="#333399" vlink="#000000" alink="#00AAD4">
+
+<script language="JavaScript">
+var namePrompt = sessionStorage.getItem('nome-do-visitante');
+if (typeof namePrompt == 'undefined' || !namePrompt || namePrompt.trim() == '') {
+  namePrompt = prompt("Digite seu digi-nome ou apelido ou qualquer treco que te chamem e que nós conhecemos (Com a primeira letra maiúscula por favor):","Boizinho Verde??");
+  if ((namePrompt =="eu") || (namePrompt =="Eu") || (namePrompt =="EU")) { window.alert("Ei você, não, eu, não, ah! Sei lá"); var namePrompt = "um cara aí" }
+  if (namePrompt =="Rodolfo") { window.alert("Ei, você");  var namePrompt = "Lerdão" }
+  if ((namePrompt =="Luiz") || (namePrompt =="Luiz Otavio") || (namePrompt =="Luiz Otávio")) { window.alert("Gerusa!"); var namePrompt = "Gerusa" }
+  if ((namePrompt =="Yara") || (namePrompt =="Flávia") || (namePrompt =="Flavia")) { window.alert("Oi Prima!!!"); var namePrompt = "Prima" }
+  if (namePrompt =="") { window.alert("Não tem nome não é?!"); var namePrompt = "Boizinho Verde" }
+  if ((namePrompt =="Cayo") || (namePrompt =="Striker_") || (namePrompt =="Pig")) { window.alert("E aí Pig?"); var namePrompt = "Pepper Man" }
+  if (namePrompt =="Geraldo") { window.alert("E aí homossexual inativo de 2ª classe?"); var namePrompt = "Geraldinho" }
+  if ((namePrompt =="Felipe") || (namePrompt =="Banana") || (namePrompt =="felipe")) { window.alert("Como é que vai a A. Carol, hein Banana?."); var namePrompt = "Banana Flower" }
+  if ((namePrompt =="Leoncio") || (namePrompt =="Leôncio") || (namePrompt =="Mewkid")) { window.alert("LerdôôôôÔÔÔÔôôôôncio!"); var namePrompt = "Napoleôncio" }
+  if ((namePrompt =="Marcos") || (namePrompt =="Pigozzo") || (namePrompt =="marcos") || (namePrompt =="marcus") || (namePrompt =="Marcus")) { window.alert("Como vai o seu time?? Coeeeeeeeeeeeeelho!!"); var namePrompt = "Coelho" }
+  if ((namePrompt =="Macho") || (namePrompt =="macho")) { window.alert("Macho?? Eu acho que não!"); var namePrompt = "Viado" }
+  if ((namePrompt =="Polyana") || (namePrompt =="Poliana")) { window.alert("Muuuuuuuuuuuuuuuuuu!"); var namePrompt = "Mimosa" }
+  if (namePrompt =="Jaqueline") { var namePrompt = "Jucégua" }
+  if ((namePrompt =="Vitor") || (namePrompt =="Sendin")) { var namePrompt = "Turco" }
+  if ((namePrompt =="Thiago") || (namePrompt =="thiago")) { window.alert("Suííínooo!!!"); var namePrompt = "Thiago" }
+  if (namePrompt =="Caio") { window.alert("Corcunda!"); var namePrompt = "Corcunda" }
+  if (namePrompt =="Luiz Cláudio") { var namePrompt = "Fessor" }
+  if ((namePrompt =="Tatiane") || (namePrompt =="Tati")) { window.alert("Como você vai tati?"); var namePrompt = "Tati" }
+  if ((namePrompt =="Larissa") || (namePrompt =="larissa") || (namePrompt =="Candinha")) { window.alert("Lembra daquele Chedar McMelt do McDonalds? Que delícia aquele trequinho amarelo!"); var namePrompt = "Candinha" }
+  if ((namePrompt =="Amanda") || (namePrompt =="amanda") || (namePrompt =="Doméstica") || (namePrompt =="Domestica") || (namePrompt =="domestica") || (namePrompt =="doméstica")) { window.alert("Que isso! Doméstica de internet??!!"); var namePrompt = "Amanda" }
+  if (namePrompt =="Carlos") { var namePrompt = "Morcego" }
+  if (namePrompt =="Caio") { var namePrompt = "Corcunda!" }
+  if ((namePrompt =="Andréia") || (namePrompt =="Nelita") || (namePrompt =="Maria") || (namePrompt =="Maria Helena") || (namePrompt =="Lilian")) { var namePrompt = "Fessora" }
+  if ((namePrompt =="Paulão") || (namePrompt =="Paulo") || (namePrompt =="Adriano")) { var namePrompt = "Fessor" }
+  if (namePrompt =="Michael") { var namePrompt = "Rena de Papai Noel" }
+  if (namePrompt =="Evelyn") { var namePrompt = "Marela" }
+  if ((namePrompt =="Natal") || (namePrompt =="natal") || (namePrompt =="lino") || (namePrompt=="Natalino")) { window.alert("E o Lino?? Tem encontrado muito ele(ou ela, né)?");var namePrompt = "Lininho" }
+  if ((namePrompt =="Pão") || (namePrompt =="pao") || (namePrompt =="pão")) { window.alert("E aí Pãozim?"); var namePrompt = "Pãozim" }
+  if ((namePrompt =="Kênia") || (namePrompt =="Kenia") || (namePrompt =="kenia") || (namePrompt =="kênia")) { window.alert("Como vai o Jaime??"); var namePrompt = "Jaima" }
+  sessionStorage.setItem('nome-do-visitante', namePrompt);
+}
+// -->
+</script>
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" width="761" height="51" bgcolor="#FFFFFF" align="left">
+  <center>
+    <tr>
+      <td height="1" width="109"><font size="1"><img src="falso.gif" width="1" height="1"></font></td>
+      <td width="484" height="50" rowspan="2" valign="top">
+        <table border="0" cellpadding="0" cellspacing="0" width="480" align="center">
+          <tr>
+            <td>
+              <object type="application/x-shockwave-flash" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="383" height="56" id="banner-top-flash">
+                <param name="movie">
+                <video width="383" height="56" autoplay loop preload="auto" id="banner-top-video"></video>
+              </object>
+              <script>haha()</script>
+            </td>
+            <td valign="top">
+              <table border="0" cellpadding="0" cellspacing="0" width="85" height="44">
+                <tr>
+                  <td height="1"></td>
+                </tr>
+                <tr>
+                  <td height="47"><a href="mailto:saladois@ieg.com.br"><img border="0" src="img_gif/bug.gif" width="93" height="41"></a></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+      <td width="139" height="1" bgcolor="#FFFFFF" valign="top"><img border="0" src="falso.gif" width="1" height="1"></td>
+    </tr>
+    <tr>
+      <td width="124" height="30" valign="top" align="center">
+        <div align="center">
+          <table border="0" cellpadding="0" cellspacing="0" height="27">
+            <tr>
+              <td align="center" height="14"><img border="0" src="img_gif/logo.gif" width="118" height="55"></td>
+            </tr>
+          </table>
+        </div>
+      </td>
+      <td width="139" height="13" bgcolor="#FFFFFF" valign="top">
+        <div align="center">
+          <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td valign="top"><img border="0" src="img_gif/logo.gif" align="top" width="118" height="55"></td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+    </center><tr><center>
+      <td width="120" height="57" valign="top" align="center">
+        <table width="117" border="0" cellspacing="0" cellpadding="2" bgcolor="#ffffff" height="1">
+          <tr bgcolor="#0099CC">
+            <td width="111" align="right" colspan="2" height="1">
+              <p align="center"><b><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif" size="1">Seja
+              Bem Vindo!</font></b></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="1" width="111"><font size="1"><img src="falso.gif" width="1" height="1"></font></td>
+          </tr>
+          <tr bgcolor="#33CC99">
+            <td width="62" align="center" height="15"><b><a href="index.html" class="link2"><font size="1" color="#FFFFFF" face="Verdana">Principal</font></a></b></td>
+            <td width="43" align="center" height="15"><b><a href="mailto:leite_leite@mailbr.com.br" class="link2"><font size="1" color="#FFFFFF" face="Verdana">E-mail</font></a></b></td>
+          </tr>
+          <tr bgcolor="#33CC99">
+            <td width="62" align="center" height="1"><b><a href="icq.htm" class="link2"><font color="#FFFFFF" size="1" face="Verdana">ICQ</font></a></b></td>
+            <td width="43" align="center" height="1"><b><a href="http://www.forumnow.com/cgi-bin/forum.exe?own=saladois" class="link2"><font color="#FFFFFF" size="1" face="Verdana">Fórum</font></a></b></td>
+          </tr>
+        </table>
+      </td>
+      <td width="480" height="352" rowspan="2" valign="top" align="left">
+        <div align="center" style="width: 477; height: 41">
+          <font face="Verdana"><b><font size="2" color="#FFFFFF">.</font></b></font>
+          <div align="left">
+            <table border="0" cellpadding="0" cellspacing="0" width="480" height="23">
+              <tr>
+                <td width="5" bgcolor="#FFFFFF" height="15"><font face="Verdana"><b><font color="#FFFFFF" size="1">.</font></b></font></td>
+                <td width="475" bgcolor="#00AAD4" height="15"><b><font face="Verdana" size="2" color="#FFFFFF">&nbsp;Quem
+                  somos? Para onde vamos? Será que lá tem Internet??</font></b></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div align="center">
+          <div align="left">
+            <table border="0" cellpadding="0" cellspacing="0" width="491">
+              <tr>
+                <td width="489">
+                  <p align="left"><font size="1"><img src="falso.gif" width="1" height="10"></font>
+                  <table border="0" cellpadding="0" cellspacing="0" width="480" align="center">
+                    <tbody>
+                      <tr valign="top">
+                        <td width="480">
+                          <div align="center">
+                            <div align="left">
+                              <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td bgcolor="#ECFFFF">
+                                    <p align="left"><font face="Verdana"><b><font size="2" color="#000000"><img border="0" src="img_gif/icon14.gif" width="15" height="15">E
+                                    aí
+                        <script language="JavaScript">
+document.write(namePrompt);
+</script>? Somos do Colégio Educare Rede Pitágoras de Betim </font><font color="#000000" size="1" face="Verdana">MG</font></b><b><font size="2" color="#000000">.
+                                    Esta página que é </font><font size="2" color="#333399">atualizada
+                                    todo dia</font><font size="2" color="#000000">
+                                    foi feita para honrar a turma II. É isso
+                                    aí! Nós somos patolas! Yeah!<br>
+                                    <img border="0" src="img_gif/biggrin.gif" width="15" height="15">Clique
+                                    <a href="novatos.htm" class="link3">aqui</a>
+                                    ou ali para visitar os <a href="novatos.htm" class="link3">novatos</a>!!!</font></b><font size="2" color="#000000"><br>
+                                    </font></font></td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td width="489"><font face="Verdana"><b><font size="2" color="#FFFFFF">.</font></b></font>
+                  <div align="left">
+                    <table border="0" cellpadding="0" cellspacing="0" width="480" height="23">
+                      <tr>
+                        <td width="5" bgcolor="#FFFFFF" height="15"><font face="Verdana"><b><font color="#FFFFFF" size="1">.</font></b></font></td>
+                        <td width="485" bgcolor="#CC9900" height="15"><b><font face="Verdana" size="2" color="#FFFFFF">&nbsp;</font><font face="Verdana" size="2" color="#333399"><img border="0" src="img_gif/icon3.gif" width="15" height="15">
+                          Novidades...</font></b></td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td width="489">
+                  <table border="0" cellpadding="0" cellspacing="0" width="480" align="center">
+                    <tbody>
+                      <tr valign="top">
+                        <td width="480">
+                          <div align="center">
+                            <div align="left">
+                              <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td bgcolor="#F8F5DA"><font size="1"><img src="falso.gif" width="1" height="12"></font></td>
+                                </tr>
+                                <tr>
+                                  <td valign="top" bgcolor="#F8F5DA">
+                                    <p align="left"><font face="Verdana" size="1"><b><img border="0" src="img_gif/bola.gif" width="8" height="8">
+                                    Colocamos mais um jornal, tiramos aquele RPG
+                                    dos Huevos (demo) e só o colocaremos quando
+                                    estiver pronto, e pedimos pra vocês que
+                                    usem e abusem da votação e do
+                                    fórum.&nbsp;<br>
+                                    <img border="0" src="img_gif/bola.gif" width="8" height="8">
+                                    Estamos aí, atualizando a página mais uma
+                                    vez, depois de uma longa espera. Ainda não
+                                    trocaremos o estilo da página, porque ela
+                                    ainda tá muito <font color="#FF00FF">fashion</font>.
+                                    Quem sabe daqui um mês a gente o faça!</b></font><br>
+                                    <font face="Verdana" size="1"><b><img border="0" src="img_gif/bola.gif" width="8" height="8">
+                                    Mais uma vez pedimos desculpas por estarmos
+                                    atrasados na atualização e por isso,
+                                    colocamos esta pequena amostra do mais novo <font color="#00AAD4">RPG</font>
+                                    de <font color="#0099CC">L</font><font color="#00FF00">o</font><font color="#FF0000">s</font>
+                                    H<font color="#FF0000">u</font>e<font color="#009933">v</font><font color="#FFCC00">o</font>s:
+                                    Betim não é o Bastante! Quando tivermos
+                                    tempo, colocaremos uma nova votação,
+                                    porque essa ficou um <font color="#CC9900">lixo</font>!
+                                    Não dá para fazermos mais jornais! Estamos
+                                    nas férias e os fatos são poucos! A única
+                                    coisa que eu sei é que o <font color="#CC9900">B</font><font color="#FFCC00">a</font><font color="#CC9900">n</font><font color="#FFCC00">a</font><font color="#CC9900">n</font><font color="#FFCC00">a</font>
+                                    foi chifrado pela <font color="#800000">N</font><font color="#FF0000">A</font><font color="#800000">T</font>...</b></font><br>
+                                    <font face="Verdana"><font face="Verdana" size="1"><b><img border="0" src="img_gif/bola.gif" width="8" height="8">
+                                    Após muitos dias sem atualizar a nossa
+                                    page, criamos vergonha na cara e além de
+                                    atualiza-la nós também a redesenhamos
+                                    devido a algumas reclamações de pessoas
+                                    que diziam que a página estava muito pesada
+                                    e etc... Estamos pensando em colocar além
+                                    de coisas sobre a nossa sala</b></font><font size="1"><b>
+                                    colocar sobre qualquer tipo de informação,
+                                    com essa atualização estamos inserindo ao
+                                    MENU a parte de <a href="downloads.htm" class="link4"><font color="#9999FF">Downloads</font></a><font color="#333399">,
+                                    </font><a href="emails.htm" class="link4"><font color="#9999FF">E-mails</font></a><font color="#333399">,
+                                    </font><a href="fatos.htm" class="link4"><font color="#9999FF">Fatos</font></a>
+                                    <font color="#333399"></font><font color="#000000">e
+                                    um pouco sobre </font><a href="roswell.htm" class="link4"><font color="#9999FF">ufologia</font></a><font color="#000000">
+                                    que o Leite pegou pela Internet a fora..</font></b></font><b><font size="1" color="#000000">.</font></b><font color="#000000" size="2"><br>
+                                    </font><font face="Verdana" size="1"><b><img border="0" src="img_gif/bola.gif" width="8" height="8">
+                                    Atenção!!!! Estamos com uma nova
+                                    votação. Se quiser dar uma olhada no
+                                    resultado da última, clique <a href="votum.htm" class="link4">aki</a>.<br>
+                                    </b></font></font><font face="Verdana" size="1"><b><img border="0" src="img_gif/bola.gif" width="8" height="8">
+                                    Agora temos o download da musiquinha
+                                    preferida da nossa sala!!! Não é Gerusa do
+                                    Sudeste não! Vai lá na seção de
+                                    downloads conferir! É rapidão! E não se
+                                    esqueça de votar! Quer saber do seu amigo
+                                    oculto? Dê um Click <a href="amigo.htm" class="link4">aqui</a>!!</b></font></td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td width="489">
+                  <div align="center">
+                    <table border="0" cellpadding="0" width="100%" cellspacing="0" height="100%">
+                      <tr>
+                        <td width="475" colspan="2" bgcolor="#009933" height="15" valign="top"><b><font face="Verdana" size="2" color="#FFFFFF">&nbsp;<img border="0" src="img_gif/smile.gif" width="15" height="15">
+                          Atualizações!</font></b></td>
+                      </tr>
+                      <tr>
+                        <td width="50%" valign="bottom" align="center" height="21" background="img_gif/corpo.gif"><img border="0" src="img_gif/orelhae.gif" width="21" height="21"><img border="0" src="img_gif/30-09.gif" width="63" height="21"><img border="0" src="img_gif/orelhad.gif" width="21" height="21"></td>
+                        <td width="50%" valign="bottom" align="center" height="21" background="img_gif/corpod.gif"><img border="0" src="img_gif/orelhae.gif" width="21" height="21"><img border="0" src="img_gif/04-10.gif" width="63" height="21"><img border="0" src="img_gif/orelhad.gif" width="21" height="21"></td>
+                      </tr>
+                      <tr>
+                        <td width="50%" valign="top" background="img_gif/corpo.gif"><b><font face="Verdana" size="2" color="#000000"><img border="0" src="img_gif/bola.gif" width="8" height="8">
+                          </font><font face="Verdana" size="1" color="#000000">Renovamos
+                          as áreas de apelidos, de Webmaster, e o jornal da
+                          semana</font></b><br>
+                          <img border="0" src="falso.gif" width="1" height="10"></td>
+                        <td width="50%" valign="top" background="img_gif/corpod.gif"><img border="0" src="img_gif/bola.gif" width="8" height="8">
+                          <b><font face="Verdana" size="1">Inserimos as partes
+                          de Frases do Dia e Vacilos</font></b></td>
+                      </tr>
+                      <tr>
+                        <td width="50%" valign="top" align="center"><img border="0" src="img_gif/08-10.gif" width="63" height="21"></td>
+                        <td width="50%" valign="top" align="center"><img border="0" src="img_gif/11-10.gif" width="63" height="21"></td>
+                      </tr>
+                      <tr>
+                        <td width="50%" valign="top" background="img_gif/corpo.gif"><font face="Verdana" size="1"><b><img border="0" src="falso.gif" width="1" height="10"><br>
+                          <img border="0" src="img_gif/bola.gif" width="8" height="8"> Colocamos um
+                          novíssimo download: <a href="downloads/apelidos.exe" class="link4">apelidos.exe</a><br>
+                          <img border="0" src="img_gif/bola.gif" width="8" height="8"> Corrigimos
+                          vários Bugs<br>
+                          <img border="0" src="falso.gif" width="1" height="10"></b></font></td>
+                        <td width="50%" valign="top" background="img_gif/corpod.gif"><font face="Verdana" size="1"><b><img border="0" src="falso.gif" width="1" height="10"><br>
+                          <img border="0" src="img_gif/bola.gif" width="8" height="8"> Mais um jornal</b></font><br>
+                          <font face="Verdana" size="1"><b><img border="0" src="img_gif/bola.gif" width="8" height="8">
+                          Fizemos novos <i>Flashes</i><br>
+                          <img border="0" src="img_gif/bola.gif" width="8" height="8"> Apuração da
+                          Votação</b></font></td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td width="489"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b><font color="#FFFFFF"><img border="0" src="img_gif/web.gif" usemap="#FPMap0" width="480" height="22"><map name="FPMap0">
+                  <area href="mailto:leite_leite@mailbr.com.br" shape="polygon" coords="171, 7, 201, 7, 200, 21, 172, 19">
+                  <area href="mailto:coltinho@uai.com.br" shape="polygon" coords="206, 5, 242, 6, 240, 19, 206, 18">
+                  <area href="mailto:mcfarias@uai.com.br" shape="rect" coords="252, 4, 383, 19"></map></font></b></font></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div align="center">
+          <table border="0" cellpadding="0" cellspacing="0" height="135">
+            <tr>
+              <td valign="middle" height="15" colspan="2">
+                <div align="left">
+                  &nbsp;
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="middle" height="20"><font face="Arial, Helvetica, sans-serif" size="1">Links
+                :</font></td>
+              <td valign="middle" height="20">
+                <div align="left">
+                  <font face="arial,helvetica" size="1">| <a href="http://www.educare-redepitagoras.g12.br/" class="link3">Nosso
+                  Colégio</a> | <a href="http://www.pitagoras.com.br" class="link3">Rede
+                  Pitágoras</a> |&nbsp;</font>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="middle" height="20"><font face="Arial, Helvetica, sans-serif" size="1">Informática:</font></td>
+              <td valign="middle" height="20"><font face="arial,helvetica" size="1">|
+                <a href="http://http://www.guiadopc.com.br/" class="link3">Guia
+                do PC</a>&nbsp;| <a href="http://www.gabrieltorres.com/" class="link3">Clube
+                do Hardware</a> |&nbsp; <a href="http://www.real.com/" class="link3">Real
+                Player</a> | <a href="http://www.intel.com" class="link3">Intel</a>
+                | <a href="http://www.asus.com" class="link3">ASUS</a> | <a href="http://www.creative.com" class="link3">Creative</a>
+                | <a href="http://www.conectiva.com.br" class="link3">Linux</a>
+                |</font></td>
+            </tr>
+            <tr>
+              <td valign="middle" height="20"></td>
+              <td valign="middle" height="20">
+                <div align="left">
+                  <font face="arial,helvetica" size="1">| <a href="http://www.microsoft.com.br" class="link3">Microsoft</a>
+                  | <font color="#0099CC"><a href="http://www.superdownloads.com.br/" class="link3">Super
+                  Downloads</a></font> |</font>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="middle" height="21"><font face="Arial, Helvetica, sans-serif" size="1">Games:</font></td>
+              <td valign="middle" height="21"><font face="arial,helvetica" size="1">|
+                <a href="http://www.planetgames.com.br" class="link3">Planet
+                Games</a> | <a href="http://www.games.com.br" class="link3">Games.com</a>
+                | <a href="http://www.gamesmania.com" class="link3">Games Mania</a>
+                | <a href="http://cyberjogos.uol.com.br/" class="link3">Cyber
+                Jogos UOL</a>&nbsp;|&nbsp;<a href="http://www.megagames.com/" class="link3">MegaGames</a>
+                |&nbsp;</font></td>
+            </tr>
+            <tr>
+              <td valign="middle" height="21"></td>
+              <td valign="middle" height="21"><font face="arial,helvetica" size="1">|
+                <a href="http://www.fileplanet.com/" class="link3">File Planet</a>
+                | <a href="http://www.gamespy.com" class="link3">GameSpy</a>&nbsp;|
+                <a href="http://www.gamelists.net/" class="link3">GameList</a> |
+                <a href="http://www.clubedojogo.com.br/" class="link3">Clube do
+                Jogo</a> | <a href="http://www.continuum.com.br/" class="link3">Continuum</a>
+                |</font></td>
+            </tr>
+            <tr>
+              <td valign="middle" colspan="2" align="center" height="21">
+                <!-- Início Código Contador Grátis -->
+                <script type="text/javascript" src="http://www.contadorgratis.pog.com.br/contador.php?page=201612281482944380&estilo=web1&tp=1"></script>
+                <!-- Final Código Contador Grátis-->
+              </td>
+            </tr>
+            <tr>
+              <td valign="middle" colspan="2" align="center" height="18"><font face="Arial" size="2"><b>Mais
+                links em breve...</b></font></td>
+            </tr>
+          </table>
+        </div>
+      </td>
+      </center><td width="138" height="13" bgcolor="#FFFFFF" valign="top"><div align="center">
+        <table border="0" cellpadding="2" cellspacing="0" width="117" height="1">
+          <center>
+            <tr bgcolor="#0099CC">
+              <td width="111" height="1" colspan="2">
+                <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b>Seja
+                Bem Vindo!</b></font></p>
+              </td>
+            </tr>
+            <tr>
+              <td width="110" height="1" colspan="2"><img border="0" src="falso.gif" width="1" height="1"></td>
+            </tr>
+          </center>
+          <tr bgcolor="#33CC99">
+            <td width="62" align="center" height="15"><b><a href="index.html" class="link2"><font size="1" color="#FFFFFF" face="Verdana">Principal</font></a></b></td>
+            <td width="43" align="center" height="15"><b><a href="mailto:leite_leite@mailbr.com.br" class="link2"><font size="1" color="#FFFFFF" face="Verdana">E-mail</font></a></b></td>
+          </tr>
+          <tr bgcolor="#33CC99">
+            <td width="62" align="center" height="1"><b><a href="icq.htm" class="link2"><font color="#FFFFFF" size="1" face="Verdana">ICQ</font></a></b></td>
+            <td width="43" align="center" height="1"><b><a href="http://www.forumnow.com/cgi-bin/forum.exe?own=saladois" class="link2"><font color="#FFFFFF" size="1" face="Verdana">Fórum</font></a></b></td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="124" height="272" valign="top" align="center">
+      <div align="center">
+        <table border="0" cellpadding="0" cellspacing="1" bgcolor="#CCFFFF">
+          <tr>
+            <td width="106" height="18"><img border="0" src="img_gif/menu1.gif" width="106" height="18"></td>
+          </tr>
+          <tr>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="apelidos.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Apelidos</a></font></b></td>
+          </tr>
+          <tr>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="downloads.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Download</a></font></b></td>
+          </tr>
+          <tr>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="email.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">E-mails</a></font></b></td>
+          </tr>
+          <tr>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="http://www.forumnow.com/cgi-bin/forum.exe?own=saladois" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Fórum</a></font></b></td>
+          </tr>
+          <tr>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="fatos.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Fatos</a></font></b></td>
+          </tr>
+          <tr>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="frases.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Frases</a></font></b></td>
+          </tr>
+          <tr>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="icqs.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">ICQs</a></font></b></td>
+          </tr>
+          <tr>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="16"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="jornal.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Jornal</a></font></b></td>
+          </tr>
+          <tr>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="musica.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Música</a></font></b></td>
+          </tr>
+          <tr>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="recordes.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Recordes</a></font></b></td>
+          </tr>
+          <tr>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="roswell.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Roswell</a></font></b></td>
+          </tr>
+          <tr>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="vacilos.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Vacilos</a></font></b></td>
+          </tr>
+          <tr>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="webmaster.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Webmaster</a></font></b></td>
+          </tr>
+          <tr>
+            <td width="106" valign="middle" align="left" height="20"><img border="0" src="img_gif/menu.gif" width="106" height="18"><font size="1"><img src="falso.gif" width="1" height="260"></font></td>
+          </tr>
+        </table>
+      </div>
+    </td>
+    <td width="139" height="12" bgcolor="#FFFFFF" valign="top">
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="1" bgcolor="#CCFFFF" width="110">
+          <tr>
+            <td>
+              <p align="center"><img border="0" src="img_jpg/votacao1.jpg" width="110" height="18"></p>
+            </td>
+          </tr>
+          <tr bgcolor="#00C6BC">
+            <td>
+              <p align="center"><b><font color="#CCFFFF" size="1" face="Verdana">Onde está Wilson agora?</font></b></td>
+          </tr>
+          <tr bgcolor="#00C6BC">
+            <td align="left" height="20">
+<!-- Begin Pollit.com HTML Code -->
+
+<script language="JavaScript">
+<!--
+ function VoteWindow() {
+ window.open("http://www.Pollit.com/poll/process.html","pollwindow","toolbar=no,scrollbars=no,directories=no, status=no,menubar=no,resizable=no,width=469,height=460")
+   }
+ // --></script>
+<FORM ACTION="http://vote.pollit.com/vote3" target="pollwindow" OnSubmit="VoteWindow()" METHOD="GET">
+<input type="hidden" name="ID" value="395913">
+<font size=1 face="Verdana" color="#000000"><b><input type="radio" name="vote" value="1">No bar do Moe</b>
+</font>
+</form></td></tr><tr bgcolor="#00C6BC"><td align="left" height="20">
+<font size=1 face="Verdana" color="#000000"><b><input type="radio" name="vote" value="2">Na Área 51</b>
+</font></td></tr><tr bgcolor="#00C6BC"><td align="left" height="20">
+<font size=1 face="Verdana" color="#000000"><b><input type="radio" name="vote" value="3">Em Rosewell</b>
+</font></td></tr><tr bgcolor="#00C6BC"><td align="left" height="20">
+<font size=1 face="Verdana" color="#000000"><b><input type="radio" name="vote" value="4">Na Saladois, de castigo</b>
+</font></td></tr><tr bgcolor="#00C6BC"><td align="left" height="20">
+<font size=1 face="Verdana" color="#000000"><b><input type="radio" name="vote" value="5">Atrás da casa do Leôncio</b>
+</font></td></tr><tr bgcolor="#00C6BC"><td align="left" height="20">
+<font size=1 face="Verdana" color="#000000"><b><input type="radio" name="vote" value="6">Brincando de casinha com o Banana</b>
+</font></td></tr><tr bgcolor="#00C6BC"><td align="left" height="20">
+<center><input type="submit" value="Enviar" name="submit"><br><font size=1 FACE="verdana"><small><a href="http://vote.Pollit.com/webpoll3?ID=395913"  OnClick="VoteWindow()" target="pollwindow" >Resultado</a></small></font></center></td></tr>
+
+<!-- End Pollit.com HTML Code -->
+     <tr>
+       <td width="106" valign="middle" align="left" height="20"><img border="0" src="img_gif/menu.gif" width="110" height="18"><font size="1"><img src="falso.gif" width="1" height="260"></font></td>
+     </tr>
+   </table>
+
+              </center></div></td>
+            </tr>
+          </table>
+        </div>
+
+</body>
+
+</html>
+
+<html></html>
+<html></html>

@@ -1,0 +1,15 @@
+By: Henrique
+
+OLá cara amigo, :-)
+Tipo, Atualizei toda a posição das tabelas e reduzi muito o numero de Javas e Imagens para 
+que a pagina fosse acessada com maior rapidez, aprendi um recurso legal para elaborar 
+espaçamento entre a celula que se chama Falso.gif onde pode ser visuallizado dentro de 
+qualquer editor.
+Debaixo do Logo possu uma tabela dividida em 4 partes onde alguns links estão quebrados como
+o que esta escrito ICQ pois eu pensei em colocar um java que eu vi alguns dias pra tras que 
+vc pode enviar uma Mensagem para o ICQ da pessoa colocando seu Nome e a MSG..
+Se alguem souber desse recurso, faça-o..
+:-)
+Sem +...                             FUI!!!
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
