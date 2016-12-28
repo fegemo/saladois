@@ -1,9 +1,37 @@
 <html>
-
 <head>
 <title>Saladois.hpg.com.br</title>
 <link rel="stylesheet" href="link.css">
-<title>Saladois.hpg.com.br</title>
+<script>
+function haha() {
+  var todosBanners = [
+    'desculpe',
+    'sabeoqe',
+    'especiais',
+    'person',
+    'barflash',
+    'eivoce',
+    'esquilos',
+    'saladois'
+  ];
+  var bannerEscolhido = todosBanners[Math.floor(Math.random() * todosBanners.length)];
+
+  var flashEl = document.getElementById('banner-top-flash');
+  var videoEl = document.getElementById('banner-top-video');
+
+  // flashEl.src = bannerEscolhido + '.swf';
+  flashEl.getElementsByTagName('param')[0].value = bannerEscolhido + '.swf';
+
+  ['webm', 'mp4'].forEach(function(type) {
+    var sourceEl = document.createElement('source');
+    sourceEl.setAttribute('type', 'video/' + type);
+    sourceEl.setAttribute('src', bannerEscolhido + '.' + type);
+
+    videoEl.appendChild(sourceEl);
+  });
+}
+
+</script>
 </head>
 
 <body link="#333399" vlink="#000000" alink="#00AAD4">
@@ -16,7 +44,13 @@
       <td width="493" height="50" rowspan="2" valign="top">
         <table border="0" cellpadding="0" cellspacing="0" width="480" align="center">
           <tr>
-            <td><font face="Verdana"><embed width="383" height="56" src="saladois.swf">&nbsp;</font></td>
+            <td>
+              <object type="application/x-shockwave-flash" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="383" height="56" id="banner-top-flash">
+                <param name="movie">
+                <video width="383" height="56" autoplay loop preload="auto" id="banner-top-video"></video>
+              </object>
+              <script>haha()</script>
+            </td>
             <td valign="top">
               <table border="0" cellpadding="0" cellspacing="0" width="85" height="44">
                 <tr>
@@ -30,9 +64,9 @@
           </tr>
         </table>
       </td>
-      <td width="135" height="51" rowspan="5" bgcolor="#F2F2F2" valign="top"><font face="Verdana" size="2" color="#333399"><b>Não
+      <td width="135" height="51" rowspan="5" bgcolor="#F2F2F2" valign="top"><font face="Verdana" size="2" color="#333399"><b>NÃ£o
         gostou da<img border="0" src="img_gif/confused.gif" width="15" height="22"> sua cor?? Esqueci
-        de você?</b></font>
+        de vocÃª?</b></font>
         <p align="center"><b><font face="Verdana" size="1"><a href="mailto:saladois@ieg.com.br">Clique
         aqui</a></font></b></p>
       </td>
@@ -95,7 +129,7 @@
                     </tr>
                     <tr>
                       <td width="50%" bgcolor="#008000"><font face="Verdana" size="2" color="#33CC99"><b>Nome
-                        do Indivíduo</b></font></td>
+                        do IndivÃ­duo</b></font></td>
                       <td width="50%" bgcolor="#008000"><font face="Verdana" size="2" color="#33CC99"><b>De
                         onde vem</b></font></td>
                     </tr>
@@ -109,7 +143,7 @@
                       <td width="50%" bgcolor="#FF00FF"><font face="Verdana" size="2" color="#CCFFFF"><b>?????????</b></font></td>
                     </tr>
                     <tr>
-                      <td width="50%" bgcolor="#00AAD4"><font face="Verdana" size="2" color="#CCFFFF"><b>Kênia</b></font></td>
+                      <td width="50%" bgcolor="#00AAD4"><font face="Verdana" size="2" color="#CCFFFF"><b>KÃªnia</b></font></td>
                       <td width="50%" bgcolor="#00AAD4"><font face="Verdana" size="2" color="#CCFFFF"><b>Margarida</b></font></td>
                     </tr>
                     <tr>
@@ -128,12 +162,12 @@
                     </tr>
                     <tr>
                       <td width="50%" bgcolor="#FF00FF"><font face="Verdana" size="2" color="#CCFFFF"><b>Marcos
-                        Túlio</b></font></td>
-                      <td width="50%" bgcolor="#FF00FF"><font face="Verdana" size="2" color="#CCFFFF"><b>Pitágoras/Margarida</b></font></td>
+                        TÃºlio</b></font></td>
+                      <td width="50%" bgcolor="#FF00FF"><font face="Verdana" size="2" color="#CCFFFF"><b>PitÃ¡goras/Margarida</b></font></td>
                     </tr>
 		    <tr>
-		      <td width="50%" bgcolor="#FF00FF"><font face="Verdana" size="2" color="#CCFFFF"><b>Salomão</b></font></td>
-		      <td width="50%" bgcolor="#FF00FF"><font face="Verdana" size="2" color="#CCFFFF"><b>Pitágoras?</b></font></td>
+		      <td width="50%" bgcolor="#FF00FF"><font face="Verdana" size="2" color="#CCFFFF"><b>SalomÃ£o</b></font></td>
+		      <td width="50%" bgcolor="#FF00FF"><font face="Verdana" size="2" color="#CCFFFF"><b>PitÃ¡goras?</b></font></td>
 		    </tr>
                   </table>
                 </div>
@@ -165,7 +199,7 @@
             <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="email.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">E-mails</a></font></b></td>
           </tr>
           <tr>
-            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="http://www.forumnow.com/cgi-bin/forum.exe?own=saladois" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Fórum</a></font></b></td>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="http://www.forumnow.com/cgi-bin/forum.exe?own=saladois" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">FÃ³rum</a></font></b></td>
           </tr>
           <tr>
             <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="fatos.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Fatos</a></font></b></td>
@@ -180,7 +214,7 @@
             <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="16"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="jornal.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Jornal</a></font></b></td>
           </tr>
           <tr>
-            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="musica.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Música</a></font></b></td>
+            <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="musica.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">MÃºsica</a></font></b></td>
           </tr>
           <tr>
             <td bgcolor="#00C6BC" width="106" valign="middle" align="left" height="17"><b><font size="1" face="Verdana"><font color="#00C6BC">&gt;</font><a href="recordes.htm" class="link2" onmouseover="this.className='link1';" onmouseout="this.className='link2';">Recordes</a></font></b></td>
