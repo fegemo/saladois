@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_Rs" value="name:CodigoPagina;datatype:INTEGER,name:NomePagina;datatype:LONGCHAR,name:TituloPagina;datatype:LONGCHAR,name:ArquivoPagina;datatype:LONGCHAR" />
+</info>

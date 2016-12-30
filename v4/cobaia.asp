@@ -1,0 +1,252 @@
+<%@LANGUAGE="VBSCRIPT"%> 
+<!--#include file="Connections/Conneccao.asp" -->
+<%
+set Rs = Server.CreateObject("ADODB.Recordset")
+Rs.ActiveConnection = MM_Conneccao_STRING
+Rs.LockType = 3
+%>
+<html>
+<head>
+<title>Cobaia</title>
+<link rel="stylesheet" href="csss/sal.css" type="text/css">
+<script language="JavaScript">
+
+function Mensagem()
+{
+window.alert("Sejam Bem vindos cobaiada!");
+window.alert("I HAVE YOU NOW");
+window.alert("Esta aqui é a mais...");
+window.alert("Nova!");
+window.alert("Espetacular!");
+window.alert("Incrível!");
+window.alert("Fabulosa!");
+window.alert("Sessão de cobaia!");
+window.alert("Bem vindo companheiro revolucionário Ultrajovem!");
+window.alert("Você não eh um ultrajovem?");
+window.alert("Você não eh um cobaia?");
+window.alert("Você se acha superior ao colaborador que fez esta sessão?");
+window.alert("Então os seus problemas acabaram!");
+window.alert("Porque eu naum tou nem aí!");
+window.alert("-=|FODAS|=-");
+window.alert("Como fui mal educado!");
+window.alert("Vou ter que lavar minah boca com sabão!");
+window.alert("Dona de casa ! Mostre sua força de patroa e compre produto de qualidade!");
+window.alert("Sabão em pó tem que ser sabão Campesino!");
+window.alert("O sabão da patroa!");
+window.alert("Ae leite ! vc me deve essa hein amigão!");
+window.alert("Viu? Cobaias como eu e vc tbm saum B.O.s!");
+window.alert("BO BO BO!!!!!");
+window.alert("Bem, vamos conversar direito intaum");
+window.alert("Pensando bem.....");
+window.alert("Huuum......");
+window.alert("Tou sem idéia......");
+window.alert("Tah, tah bom, vamos conversar direito.");
+window.alert("Já sei!");
+window.alert("Vou cantar uma música!");
+window.alert("Não gostou da idéia?");
+window.alert("Bem, sua opnião eh irrelevante!!");
+window.alert("Eskeceu, você eh um cobaia!!");
+window.alert("Agora você deve estar se arrependendo de ter clicado nakele link taum inofensivo naum.....");
+window.alert("Pense positivo, isso ainda vai acabar!");
+window.alert("Bem, só vai durar um dia....!");
+window.alert("Beeeem....quem sabe nuns 3 dias.....!");
+window.alert("Um, pensando bem uns 5......");
+window.alert("Tá olhando o quê? Minha mente eh fértil!!!");
+window.alert(" hauehuaehuaehuha =D ");
+window.alert("Tah, voltando a Música");
+window.alert("Cinco patinhos foram passeaaaaaar!!!!!!");
+window.alert("Além das montanhas para brincaaaaaaaaarrrr!!!!");
+window.alert("A mamãe gritou; Quá ! quá ! Quá ! Quá!");
+window.alert("É, realmente essa foi foda.....");
+window.alert("Culpa do salomão!");
+window.alert("Fica poluindo pobres mentes inocentes com suas salomúsicas salomônicas!");
+window.alert("Salomão BeeeeeeeeentooooooooOOOO!");
+window.alert("Bem, voltando......");
+window.alert("Já sei!");
+window.alert("Charada!!!!!");
+window.alert("Desafio heein!!!!");
+window.alert("Pega aí");
+window.alert("Um papel e uma caneta");
+window.alert("Lá vai:");
+window.alert("Uma mulher saiu de casa para comprar laranjas");
+window.alert("Ela keria comprar 5 bananas mas só conseguia carregar 3 mexericas");
+window.alert("Chegando na feira não tinha tomates ae ela resolveu comprar 1 abacaxi");
+window.alert("Depois ela foi atropelada por uma abóbora gigante, deixando cair todas as cenouras no chão...");
+window.alert("Viu depois que só tinham sobrado 1 limão e uma beterraba,");
+window.alert("Porque os cachorros comeram todas as melancias e as abobrinhas sairam correndo,");
+window.alert("Considere que:");
+window.alert("Pi = 3,14");
+window.alert("Com 345 paus se forma uam canoa");
+window.alert("E a cor do cavalo branco de napoleão era marrom...");
+window.alert("Quem é que estava esperando a mulher bater nas portas do céu?");
+window.alert("Vamo lá!");
+window.alert("a)Anakin Skywalker");
+window.alert("b)Salomãaao BeeeentooooOOOO!!!!");
+window.alert("c)Jacinto Pinto Aquino Rêgo");
+window.alert("d)My name is Bond, Jaaames Bond!");
+window.alert("e)Todas as Alternativas Anteriores");
+window.alert("Pensa aí...");
+window.alert("Vai que vc consegue...");
+window.alert("Usa o tico e teco ae!");
+window.alert("Òia óia!");
+window.alert("VAI ! VAI! VAI! VAI!");
+window.alert("Ih, desse mato num sai cachorro...");
+window.alert("Vai lah que dá!!!!!");
+window.alert("Neh possível! depois de tanto clicar nessa porkera,");
+window.alert("Cê nem consegue resolver um problema taum simples?");
+window.alert("Tah foda hein......");
+window.alert("Vc ker a resposta?");
+window.alert("Huuum......");
+window.alert("E eu sei lá!!!!!!");
+window.alert("Era por isso que eu tava te perguntando!");
+window.alert("Ô neguinho lesado......");
+window.alert("Agora, vamos realmente mudar de assunto.");
+window.alert("Já sei!");
+window.alert("Piadaaaaaaa!!!!!");
+window.alert("Vou contar umna piadaaaa!!!!");
+window.alert("Uma salopiadinha das braba...");
+window.alert("Tava lah dois lesado ae, Godofredo e Strodo...");
+window.alert("Todo dia Godofredo encontrava Strodo,");
+window.alert("E toda hora que eles estavam conversando quando chegava a noite,");
+window.alert("Godofredo se despedia e ia para um Prostíbulo.");
+window.alert("Todo dia se repetia, até que um dia Strodo falou:");
+window.alert("Pow Godofredo, vc realemente Ama a Zona!!!!");
+window.alert("Ama a Zona,amazona, ");
+window.alert("AMAZONAS!!!!");
+window.alert("Aeeeeeeeee!!!!!!");
+window.alert("UHUAEHUAEHUAEHUAEHUAEHU!!!!!!");
+window.alert("Eu sou d+!");
+window.alert("Como diria nosso notável professor reis,");
+window.alert("Essa eh de lascar o cano!!!!");
+window.alert("UAEHUAEHUAHEUAEHUAEHUAEHUAEH!!!!");
+window.alert("Noh,ateh me emocionei agora....");
+window.alert(":´-)");
+window.alert("Bem, do que falaremos agora....");
+window.alert("Hehehehee, ateh parece que você tem opção de escolha aki!!!");
+window.alert("Já sei, vamos te conhecer melhor");
+window.alert("Você eh Gay?");
+window.alert("Vamu lah, na intimidade!!!");
+window.alert("Pd falar q naum conto pra ninguém,sou um garoto de palavra.");
+window.alert("Se você eh Gay, aperte OK.");
+window.alert("VC admite?Tem certeza? Pra confirmar, aperte OK.");
+window.alert("ARÁ!!!!!!!!!!");
+window.alert("Te peguei Bichôna maldita!");
+window.alert("BICHÔNAAAA!!!!");
+window.alert("PEDERAAAAAAASTA!!!!");
+window.alert("BOIOLÔNCIIIIOOOOOO!!!");
+window.alert("mas se vc eh mulher, tudo bem.....");
+window.alert("SAPATOOONAAAAA!!!!");
+window.alert("CABELUUUUUUDAAAAA!!!!!");
+window.alert("COLADORA DE VELCRO!!!!");
+window.alert("Esse mundo tah fudido...");
+window.alert("Jah etou prevendo o apocalipse que cairá sobre nós!");
+window.alert("A vingança de Alá será longa e prazerosa!!!!");
+window.alert("Morram todos malditos pecadores!!!!");
+window.alert("Beba Coca-Cola!!!!");
+window.alert("Ué, que foi?");
+window.alert("Tenho que garantir meus patrocinadores xará!");
+window.alert("Ih, já cansou?");
+window.alert("Enjoou de clacar OK?");
+window.alert("Nem vem reclamar, o cobaia aki naum sou eu!");
+window.alert("A eh, jah tava esquecendo!");
+window.alert("Quem for cobaia grita aeeeeee!!!!!");
+window.alert("AEEEEEEEEEEEEEEEE!!!!!!!!!!!");
+window.alert("Ei, kieta, naum sou cobaia, foi só pura ação-reação!!!!");
+window.alert("Coisa da física,muito complicada pra vc entender.");
+window.alert("Calma jah tah acabando....");
+window.alert("Falta só uns cliques....");
+window.alert("Uns 7 cliques só...");
+window.alert("Contagem regressiva!!!");
+window.alert("5.......");
+window.alert("4.......");
+window.alert("3.......");
+window.alert("2.......");
+window.alert("2.......");
+window.alert(".....2.....");
+window.alert("Matemática nunca foi meu forte....");
+window.alert("Jah tah quase....!");
+window.alert("Paciência,");
+window.alert("Seu mouse está quase desmanchando de tanto clicar, mais tudo bem, NO STRESS");
+window.alert("Depois c compra outro");
+window.alert("Na minha mão eh mais barato hein!!!");
+window.alert("Tah, eu sei, acabar com isso.....");
+window.alert("Tenho mesmo que fazer isso?????");
+window.alert("A eh, ordens do manda-chuva aki....");
+window.alert("Conheça o lado corporativo SD!");
+window.alert("O poderoso Chefão!");
+window.alert("Ah, perdi a paciência com vc.");
+window.alert("Tenho mais o que fazer!!!");
+window.alert("Mas só pra te informar,");
+window.alert("Você acaba de perder vários segundos de sua vida!!");
+window.alert("Parabéns!!");
+window.alert("E vc clicou ateh agora,");
+window.alert("167 vezes!(168 com essa agora) T+!!!! FuizZzZzZ! EM breve tem mais!!!!!");
+}
+
+</script>
+</head>
+<body topmargin=0 leftmargin=0 bgcolor="#FFFFFF" text="#000000" onLoad="Mensagem()">
+<table width="780" border="0" cellspacing="0" cellpadding="0">
+  <!--#include file="topo.htm" -->
+  <tr> 
+    <td> 
+      <!--#include file="banner.asp" -->
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top"> 
+          <td width="126" height="100%"> 
+            <!--#include file="esquerda.asp" -->
+          </td>
+          <td width="509" height="100%"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
+              <tr> 
+                <td height="17" background="imgs/41.gif" class="text3mm" align="center">.: 
+                  Cobaia :.<br>
+                  <br>
+                </td>
+              </tr>
+              <tr> 
+                <td align="center" valign="top" class="text4">
+<%
+Rs.Source = "SELECT * FROM TblContadores WHERE CodigoContador=2"
+Rs.Open()
+Rs("NumeroContador") = Rs("NumeroContador") + 1
+Rs.Update
+%>
+                  <p>Ir&iacute;ririirirriri acho q algu&eacute;m clicou onde n&atilde;o 
+                    devia...</p>
+                  <p>Voc&ecirc; &eacute; o <font class="text2"><%=Rs("NumeroContador")%></font>&ordm; Cobaia a sobrar aki<br>
+                    Hehheheheheehhehehehehh :D</p><% Rs.Close() %><br><br>
+                  <input type="button" value="                                                            " onClick="Mensagem()" class="botao2"><br>
+                  <input type="button" value="                                                            " onClick="Mensagem()" class="botao2"><br>
+                  <input type="button" value="                                                            " onClick="Mensagem()" class="botao2"><br>
+                  <input type="button" value="                                                            " onClick="Mensagem()" class="botao2"><br>
+                  <input type="button" value="                                                            " onClick="Mensagem()" class="botao2"><br>
+                  <input type="button" value="                                                            " onClick="Mensagem()" class="botao2"><br>
+                  <input type="button" value="                                                            " onClick="Mensagem()" class="botao2"><br>
+                  </td>
+              </tr>
+              <tr> 
+                <td height="23" bgcolor="13AB13">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+          <td height="100%"> 
+            <!--#include file="direita.asp" -->
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+<script language="JavaScript">
+function Enquete()
+{
+    window.open("espera.htm","enquete","toolbar=no,scrollbars=no,directories=no,status=no,menubar=no,resizable=yes,width=400,height=280");
+}
+</script>
+</html>
