@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>Tutorial Máscaras</title>
+<style>
+a: link      { text-decoration: none; color: #0EFFA0 }
+a: hover     { text-decoration: none; color: #0EFFFF }
+</style>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+</head>
+<body background="backgreen.gif" bgproperties="fixed" topmargin=0 leftmargin=0>
+
+<table width="759" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#000000" colspan="7" width="751">
+      <p align="center"><b><font face="Verdana" color="#FFFFFF" size="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &gt;&gt;</font><font face="Verdana" size="1" color="#00A600">RPG
+      Maker 2000</font><font face="Verdana" color="#FFFFFF" size="1"> &lt;&lt;</font></b></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="120"><a href="http://www.saladois.hpg.com.br/"><img border="0" src="logo.gif" width="120" height="20"></a></td>
+    <td width="20"><img border="0" src="inter.gif" width="20" height="20"></td>
+    <td bgcolor="#000000" width="30%"></td>
+    <td width="20"><img border="0" src="left.gif" width="20" height="20"></td>
+    <td width="100%"></td>
+    <td width="20"><img border="0" src="right.gif" width="20" height="20"></td>
+    <td width="30%" bgcolor="#000000">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="120" bgcolor="#000000">
+  &nbsp;
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;
+    <td width="629" colspan="6">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+        <tr>
+          <td height="20" width="20"><img border="0" src="left.gif" width="20" height="20"></td>
+          <td height="20" width="100%"></td>
+        </tr>
+        <tr>
+          <td height="100%" colspan="2">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td width="153" bgcolor="#000000"><b><font size="2" face="Verdana" color="#00A600">&gt;&gt;&gt;Máscaras</font></b></td>
+                <td width="462"></td>
+              </tr>
+              <tr>
+                <td width="621" colspan="2" height="20"><img border="0" src="left.gif" width="20" height="20"></td>
+              </tr>
+              <tr>
+                <td width="621" bgcolor="#000000" colspan="2"><b><font face="Verdana" size="1" color="#FFFFFF">Como
+                  fazer um sistema de máscaras como no jogo Zelda:</font></b></td>
+              </tr>
+              <tr>
+                <td width="621" bgcolor="#000000" colspan="2"></td>
+              </tr>
+              <tr>
+                <td width="621" bgcolor="#000000" colspan="2"><b><font face="Verdana" size="1" color="#FFFFFF">1°)
+                  Faça um Item, chamado &quot;Máscara 'A'&quot;(você escolhe
+                  de que será a máscara) classificado-o como &quot;switch&quot;.
+                  No mesmo local, crie a Switch &quot;Mascara 'A'&quot;, e deixe
+                  a<br>
+                  caixa de &quot;Field&quot; checada. Escreva qualquer coisa que
+                  quiser na descrição.<br>
+                  <br>
+                  2°) Vá para &quot;Common Events&quot; e pegue algum evento
+                  em branco. Coloque o nome de<br>
+                  &quot;Trigger Mascara 'A'&quot; e escolha &quot;Parallel
+                  Process&quot;. Em &quot;Appearence Conditions Switch&quot;,<br>
+                  coloque a mesma Switch feita ao criar o Item &quot;Máscara
+                  'A'&quot;. Em &quot;Events Commands&quot;,<br>
+                  faça um comando &quot;Move Event&quot; e mude o gráfico de
+                  seu personagem para o seu desenho<br>
+                  normal (ainda não é o desenho com a máscara). Depois, crie
+                  outra Switch, chamada<br>
+                  &quot;Show\Erase Mascara 'A'&quot; e selecione &quot;On\Off
+                  Triger&quot;, ao criá-la. Depois disso,<br>
+                  desligue a Switch &quot;Mascara 'A'&quot;. Ficará deste
+                  jeito:<br>
+                  <br>
+                  &lt;&gt;</font><font face="Verdana" size="1" color="#00A600">Move Event... : Hero , Change Graphic
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;&gt;</font><font face="Verdana" size="1" color="#00A600">Change Switch : [0002:Show\Erase Mascara A]-ON\OFF
+                  Triger
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;&gt;</font><font face="Verdana" size="1" color="#00A600">Change Switch : [0001:Mascara A]-OFF Set
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;&gt;<br>
+                  <br>
+                  3°) Ainda em &quot;Common Events&quot;, crie outro evento
+                  nomeado &quot;Triger Mascara 'A'&quot;. Ele tem<br>
+                  que ser &quot;Parallel Process&quot; e ter a Switch
+                  &quot;Show\Erase Mascara A&quot; como &quot;Appearence<br>
+                  Conditions Switch&quot;. Agora você só tera de criar um
+                  &quot;Move Event&quot; no qual o personagem<br>
+                  muda de gráfico, para o desenho da máscara.<br>
+                  <br>
+                  &lt;&gt;</font><font face="Verdana" size="1" color="#00A600">Move Event... : Hero , Change Graphic
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;&gt;<br>
+                  </font></b></td>
+              </tr>
+              <tr>
+                <td width="621" colspan="2" height="20"><img border="0" src="left.gif" width="20" height="20"></td>
+              </tr>
+            </table>
+            <p>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

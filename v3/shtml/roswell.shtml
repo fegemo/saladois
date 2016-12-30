@@ -1,0 +1,162 @@
+<html>
+<head>
+  <title>:: SalaDois :: "A Sala que fez história e virou lenda..."</title>
+  <link rel="stylesheet" href="csss/links.css" type="text/css">
+  <link rel="SHORTCUT ICON" href="sd.ico">
+  <script src="scripts/troca-cor.js"></script>
+  <script src="scripts/enviar-bug.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#000000">
+  <table width="779" border="0" cellspacing="0" cellpadding="0" align="left" height="100%">
+    <tr>
+      <td colspan="3" height="56">
+        <!--#include virtual="title.htm" -->
+      </td>
+    </tr>
+    <tr height="100%">
+      <td width="88" valign="top" height="100%">
+        <!--#include virtual="menu.htm" -->
+      </td>
+      <td width="536" height="100%" valign="top">
+        <script>
+        function Conteudo()
+        {
+          document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+          document.write("<tr>");
+          document.write("<td valign='top' align='left'>");
+          document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+          document.write("<tr>");
+          document.write("<td width='67' height='28'>");
+          document.write("<img src='gifs/topbar" + cor + ".gif' width='67' height='28'>");
+          document.write("</td>");
+          document.write("<td width='383' height='28' background='gifs/amostraforte" + cor + ".gif'>");
+          document.write("<center><font size='3' face='Verdana' color='#FFFFFF'><b>:: SalaDois ::</b></font></center>");
+          document.write("</td>");
+          document.write("<td width='46' height='28'>");
+          document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='28'>");
+          document.write("</td>");
+          document.write("</tr>");
+          document.write("<tr>");
+          document.write("<td colspan='2' background='gifs/amostraforte" + cor + ".gif' height='46'>");
+          document.write("</td>");
+          document.write("<td height='46' width='46'>");
+          document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+          document.write("</td>");
+          document.write("</tr>");
+          document.write("<tr>");
+          document.write("<td width='67' background='gifs/amostraforte" + cor + ".gif'>");
+          document.write("</td>");
+          document.write("<td width='383'>");
+          document.write("<font size='2' color='#000000' face='Verdana'><b>.:Roswell - Novo México</b></font>");
+          document.write("<br><br>");
+          document.write("</td>");
+          document.write("<td width='46'>");
+          document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+          document.write("</td>");
+          document.write("</tr>");
+
+          AbreLinha();
+          document.write("<table cellpadding='0' cellspacing='2'>");
+          Paragrafo("Muito se fala sobre discos voadores e, sem dúvida alguma, um dos casos mais intrigantes é o de Roswell, cidade no estado do Novo México, ao sul dos Estados Unidos onde, na noite de 4 de julho de 1947, um <i>Objeto Voador Não Identificado</i> <font class='muda" + cor + "'>(OVNI)</font> teria caído e a primeira testemunha do fato seria o fazendeiro e criador de ovelhas William W. Brazel.","jpgs\\roswellbarraum.jpg","Figura 1 - A barra em forma de I","esquerda");
+          Paragrafo("Somente em 1995, com o controvertido filme da Autópsia dos Extraterrestres (ET's) de Roswell, divulgado por Ray Santilli, é que surgiram as primeiras fotos sobre o caso sendo, então, amplamente divulgadas pela mídia. Dentre os objetos estranhos do OVNI vistos no filme de Santilli aparece uma foto de uma das barras em forma de \"I\", como mostrada na reprodução da Fig.1. ","","","");
+          Paragrafo("Em 26 de Março de 1996, os Srs. Graffeo e Barkouris divulgaram sua interpretação dos grifos, baseada na comparação dos símbolos com a escrita grega, e obtiveram a palavra \"ELEPHTHERIA\" , ou \"FREEDOM\" em Inglês. ","","","");
+          Paragrafo("Entretanto, a origem das escritas grega e fenícia remontam para a mesma época, século II a.C., onde temos o início da escrita no mundo pelos povos semitas. Assim, foram iniciados estudos sobre a escrita fenícia e foram comparados os símbolos da barra em I com os seus caracteres, obtendo uma nova interpretação para os símbolos.","","","");
+          Paragrafo("Após isto, foi divulagado através de  homepages na internet o artigo ROSWELL E OS GRIFOS DECIFRADOS, UMA NOVA INTERPRETAÇÃO, aonde descrevia o processo concluindo que os símbolos da barra poderiam ser traduzidos como a palavra URENTHEA e. fazendo alterações fonéticas, a mesma seria convertida para URANTIA.","jpgs\\roswellbarradois.jpg","Figura 2 - Os símbolos reforçados em negrito.","direita");
+          Paragrafo("Após uma grande pesquisa sobre o tema, se encontrou um vasto material associado à palavra URANTIA, a qual seria o nome dado é Terra por seres \"angelicais\", segundo a URANTIA FOUNDATION.  Esta fundação teve origem nos trabalhos do psiquiatra Dr. Sadler, em Illinois,  com uma paciente, que mantia contatos \"espirituais\" com esses seres. O grupo inicial que estudava esses contatos, acabou compilando um material de mais de 2.000 páginas originando o famoso LIVRO DE URANTIA.","","","");
+          Paragrafo("O Livro de URANTIA descreve a criação do Universo desde os primórdios: Deus e os demais seres celestiais, a queda dos anjos (rebelião) e a fuga de alguns para a Terra, fundando a cidade-estado de URANTIA.  Essa cidade-estado estaria localizada na mesopotâmia, exatamente aonde, biblicamente, seria o local do paraíso na Terra.","","","");
+          Paragrafo("Apesar da Urantia Foundation alegar, em seu site, que não possui ligação com OVNIs.","","","");
+          Paragrafo("\"Coincidência?\", \"Imaginação?\" Salomão?, realmente o tempo irá dizer, mas essa conexão Roswell-Urantia é algo intrigante, se me atrevo a dizer, validando o tão controvertido caso Roswell, senão, autenticando pelo menos a origem da famosa barra em forma de I.","","","");
+          Paragrafo("<br><center><font class='muda" + cor + "'>-=A verdade não está lá fora, ela caminha entre nós=-</font></center>","","","");
+          Paragrafo("<br><br><div align='right'><a href='http://membro.interega.com.br/casosufologicos/roswell.htm' class='muda" + cor + "' OnMouseOver='this.className=\"links4\"' OnMouseOut='this.className=\"" + "muda" + cor + "\"'><i>Fonte</i></a></div>","","","")
+          Paragrafo("<br>","","","");
+          document.write("<tr>");
+          document.write("<td width='7%'></td>");
+          document.write("<td width='43%'></td>");
+          document.write("<td width='43%'></td>");
+          document.write("<td width='7%'></td>");
+          document.write("</tr>");
+          document.write("</table>");
+          FechaLinha();
+
+
+          document.write("<tr height='100%'><td background='gifs/amostraforte" + cor + ".gif'></td><td></td><td><img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'></td></tr>");
+
+          document.write("</table>");
+          document.write("</td>");
+          document.write("</tr>");
+          document.write("</table>");
+        }
+        function AbreLinha()
+        {
+          document.write("<tr>");
+          document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+          document.write("</td>");
+          document.write("<td>");
+          document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+          document.write("<tr>");
+          document.write("<td>");
+        }
+        function FechaLinha()
+        {
+          document.write("</td>");
+          document.write("</tr>");
+          document.write("</table>");
+          document.write("</td>");
+          document.write("<td>");
+          document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+          document.write("</td>");
+          document.write("</tr>");
+        }
+        function Paragrafo(texto,imagem,alternate,ladotexto)
+        {
+          document.write("<tr>");
+          if (imagem!="") {
+            if (ladotexto=="esquerda") {
+              document.write("<td colspan='3'>");
+              document.write("<font class='links4'>");
+              document.write("" + texto + "");
+              document.write("</font>");
+              document.write("</td>");
+              document.write("<td>");
+              document.write("<img src='" + imagem + "' alt='" + alternate + "'>");
+              document.write("<br>");
+              document.write("<center><font class='muda" + cor + "'>" + alternate + "</font></center>");
+              document.write("</td>");
+            }
+            else if (ladotexto=="direita") {
+              document.write("<td>");
+              document.write("<img src='" + imagem + "' alt='" + alternate + "'>");
+              document.write("<br>");
+              document.write("<center><font class='muda" + cor + "'>" + alternate + "</font></center>");
+              document.write("</td>");
+              document.write("<td align='justify' colspan='3'>");
+              document.write("<font class='links4'>");
+              document.write("" + texto + "");
+              document.write("</font>");
+              document.write("</td>");
+            }
+            else { window.alert("Dígito de lado não encontrado"); }
+          }
+          else {
+            document.write("<td align='justify' colspan='4'>");
+            document.write("<font class='links4'>");
+            document.write("" + texto + "");
+            document.write("</font>");
+            document.write("</td>");
+          }
+          document.write("</tr>");
+        }
+        </script>
+        <div style="height: 100%">
+          <script>Conteudo();</script>
+        </div>
+      </td>
+      <td width="155" height="100%" valign="top">
+        <!--#include virtual="rightbranco.htm" -->
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

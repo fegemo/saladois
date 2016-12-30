@@ -1,0 +1,286 @@
+<html>
+<head>
+<title>:: SalaDois :: "A Sala que fez história e virou lenda..."</title>
+<link rel="stylesheet" href="csss/links.css" type="text/css">
+<link rel="SHORTCUT ICON" href="sd.ico">
+<script src="scripts/troca-cor.js"></script>
+<script src="scripts/enviar-bug.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#000000">
+<table width="779" border="0" cellspacing="0" cellpadding="0" align="left" height="100%">
+  <tr>
+    <td colspan="3" height="56">
+      <!--#include virtual="title.htm" -->
+    </td>
+  </tr>
+  <tr height="100%">
+    <td width=88 valign="top" height="100%">
+      <!--#include virtual="menu.htm" -->
+    </td>
+    <td width=536 height="100%" valign="top">
+      <script>
+	function Conteudo()
+	{
+	  document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+	    document.write("<tr>");
+		  document.write("<td valign='top' align='left'>");
+	        document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+			  document.write("<tr>");
+			    document.write("<td width='67' height='28'>");
+			      document.write("<img src='gifs/topbar" + cor + ".gif' width='67' height='28'>");
+			    document.write("</td>");
+			    document.write("<td width='383' height='28' background='gifs/amostraforte" + cor + ".gif'>");
+			      document.write("<center><font size='3' face='Verdana' color='#FFFFFF'><b>:: SalaDois ::</b></font></center>");
+			    document.write("</td>");
+			    document.write("<td width='46' height='28'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='28'>");
+			    document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td colspan='2' background='gifs/amostraforte" + cor + ".gif' height='46'>");
+				document.write("</td>");
+				document.write("<td height='46' width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td width='67' background='gifs/amostraforte" + cor + ".gif'>");
+				document.write("</td>");
+				document.write("<td width='383'>");
+				  document.write("<font size='2' color='#000000' face='Verdana'><b>.:Apelidos</b></font>");
+				  document.write("<br><br>");
+				document.write("</td>");
+				document.write("<td width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+
+
+				AbreLinha();
+				  document.write("<td colspan=2><b><font size='1' color='#000000' face='Verdana'>Ano de 2002</font></b></td>")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Adriana","Adriôncia","smile")
+				  Pessoa("Ana Carolina","Carol","biggreen")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Aurélia","Leoa","biggreen")
+				  Pessoa("Bárbara","Coca-cola","smile")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Belle","Bel","smile")
+				  Pessoa("Bruna","Biba","biggreen")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Charles","Mexicú","biggreen")
+				  Pessoa("Daniel","Daantje","smile")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Davidson","Dudu","biggreen")
+				  Pessoa("Débora","Ébora","smile")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Diêgo","Doido","smile")
+				  Pessoa("Diogo","Anão","smile")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Fabiana","Amiga Fabi","biggreen")
+				  Pessoa("Felipe","Banana","smile")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Flávio","Panaca","biggreen")
+				  Pessoa("Francisco","Chico Gay","smile")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Heloísa","Cheesto","smile")
+				  Pessoa("Henrique","Leite","biggreen")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Isabela","Darling","biggreen")
+				  Pessoa("Jaqueline","Jack","smile")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Josiane","Josi","smile")
+				  Pessoa("Júlio","Imperador","smile")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Kênia","Ênia?","biggreen")
+				  Pessoa("Leandro","Choquinho","biggreen")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Leôncio","Leãozinho","biggreen")
+				  Pessoa("Lilian","Li","biggreen")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Lorena A.","Ló","smile")
+				  Pessoa("Lorena M.","Lóris","smile")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Lucas","Luquinha","biggreen")
+				  Pessoa("Luciana","Luciôncia","smile")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Marisa","Reis","biggreen")
+				  Pessoa("Milena","Nena","biggreen")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Pedro","Esmeraldino","biggreen")
+				  Pessoa("Philip","Schultz","biggreen")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Polyana","Poly","biggreen")
+				  Pessoa("Renata","Patinha","smile")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Rodolfo","Strodo","biggreen")
+				  Pessoa("Salomão","Salmão?","smile")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Thalyta","ThaTha","smile")
+				  Pessoa("Thiago","Paschoale","smile")
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Túlio","Tulío","biggreen")
+				  Pessoa("Yara","Baby","smile")
+				FechaLinha();
+				AbreLinha();
+				  document.write("<td colspan=2><br><br><b><font size='1' color='#000000' face='Verdana'>Ano de 2001</font></b></td>")
+				FechaLinha();
+				AbreLinha();
+			      Pessoa("Amanda","Doméstica","biggreen");
+				  Pessoa("Ana Carolina","Carol","smile");
+			    FechaLinha();
+			    AbreLinha();
+	              Pessoa("Aurélia","Perfeita","smile");
+			      Pessoa("Bruna Bicalho","Bubu","biggreen");
+			    FechaLinha();
+				AbreLinha();
+				  Pessoa("Bruna Carol","Pororoquinha","biggreen");
+				  Pessoa("Caio Magno","Corcuuunda","tongue");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Carlos","Morceeego","tongue");
+				  Pessoa("Cayo","Pepper Man","smile");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Cristina","Caixote","biggreen");
+				  Pessoa("Davidson","Dudu","cool");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Débora","Duenda","smile");
+				  Pessoa("Evelyn","Valéria","smile");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Felipe","Banana","biggreen");
+				  Pessoa("Fernanda","Manola","smile");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Fernando","Cowboy","cool");
+				  Pessoa("Flávio","Anta","biggreen");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Heloísa","Mascavinha","smile");
+				  Pessoa("Henrique","Leite","biggreen");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Jaqueline","Jaq","smile");
+				  Pessoa("Kênia","Coelhinha","smile");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Leandro","Choquinho","cool");
+				  Pessoa("Leôncio","Leôncio não é apelido?","biggreen");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Lilian","Pagodera","smile");
+				  Pessoa("Luciana","Coruja","tongue");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Luiz Felipe","Pão","biggreen");
+				  Pessoa("Luiz Octávio","Geruuusa","tongue");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Marcus Túlio","Tulinhu","biggreen");
+				  Pessoa("Matheus","Sorriso","biggreen");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Milena","Always","biggreen");
+				  Pessoa("Polyana","Poly","smile");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Renata","Freira","smile");
+				  Pessoa("Rodolfo","Estranho","tongue");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Salomão","Salomôncio","smile");
+				  Pessoa("Samara","Sapa Loira","smile");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Thiago","Suíííno","tongue");
+				  Pessoa("Vitor","Sendin","biggreen");
+				FechaLinha();
+				AbreLinha();
+				  Pessoa("Yara","Brumado","tongue");
+				  document.write("<td width='50%'></td>");
+				FechaLinha();
+
+
+				  document.write("<tr height='100%'><td background='gifs/amostraforte" + cor + ".gif'></td><td></td><td><img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'></td></tr>");
+
+			document.write("</table>");
+		  document.write("</td>");
+		document.write("</tr>");
+      document.write("</table>");
+	};
+	function AbreLinha()
+	{
+	  document.write("<tr>");
+	    document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<table width='100%' cellpadding='0' cellspacing='0'>");
+		    document.write("<tr>");
+	};
+	function FechaLinha()
+	{
+	        document.write("</tr>");
+	      document.write("</table>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+		document.write("</td>");
+	  document.write("</tr>");
+	};
+	function Pessoa(nome,apelido,imagem)
+	{
+              document.write("<td width='50%'>");
+			    document.write("<table width='100%' cellpadding='0' cellspacing='0'>");
+			      document.write("<tr>");
+				    document.write("<td>");
+			          document.write("<img src='gifs/smile" + imagem + ".gif'>");
+					document.write("</td>");
+					document.write("<td width='3%'>");
+					document.write("</td>");
+					document.write("<td valign='middle' width='100%'>");
+				      document.write("<font size='1' color='#000000' face='Verdana'>");
+					    document.write("" + nome + " = " + apelido + "");
+ 			          document.write("</font>");
+					document.write("</td>");
+			      document.write("</tr>");
+				document.write("</table>");
+			  document.write("</td>")  ;
+	};
+	</script>
+	<div style="height: 100%">
+	<script>Conteudo();</script>
+	</div>
+	</td>
+    <td width=155 height="100%" valign="top">
+      <!--#include virtual="rightbranco.htm" -->
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
+<html></html>

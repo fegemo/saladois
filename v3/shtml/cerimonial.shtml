@@ -1,0 +1,172 @@
+<html>
+<head>
+<title>:: SalaDois :: "A Sala que fez história e virou lenda..."</title>
+<link rel="stylesheet" href="csss/links.css" type="text/css">
+<link rel="SHORTCUT ICON" href="sd.ico">
+<script src="scripts/troca-cor.js"></script>
+<script src="scripts/enviar-bug.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#000000">
+<table width="779" border="0" cellspacing="0" cellpadding="0" align="left" height="100%">
+  <tr>
+    <td colspan="3" height="56">
+      <!--#include virtual="title.htm" -->
+    </td>
+  </tr>
+  <tr height="100%">
+    <td width=88 valign="top" height="100%">
+      <!--#include virtual="menu.htm" -->
+    </td>
+    <td width=536 height="100%" valign="top">
+      <script>
+	function Conteudo()
+	{
+	  document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+	    document.write("<tr>");
+		  document.write("<td valign='top' align='left'>");
+	        document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+			  document.write("<tr>");
+			    document.write("<td width='67' height='28'>");
+			      document.write("<img src='gifs/topbar" + cor + ".gif' width='67' height='28'>");
+			    document.write("</td>");
+			    document.write("<td width='383' height='28' background='gifs/amostraforte" + cor + ".gif'>");
+			      document.write("<center><font size='3' face='Verdana' color='#FFFFFF'><b>:: SalaDois ::</b></font></center>");
+			    document.write("</td>");
+			    document.write("<td width='46' height='28'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='28'>");
+			    document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td colspan='2' background='gifs/amostraforte" + cor + ".gif' height='46'>");
+				document.write("</td>");
+				document.write("<td height='46' width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td width='67' background='gifs/amostraforte" + cor + ".gif'>");
+				document.write("</td>");
+				document.write("<td width='383'>");
+				  document.write("<font size='2' color='#000000' face='Verdana'><b>.:Cerimonial</b></font>");
+				  document.write("<br><br>");
+				document.write("</td>");
+				document.write("<td width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+
+				AbreLinha();
+		     			  Colega("Amanda","a nossa querida \"Doméstica\" praticante de dança do ventre. Usa pulinhos para andar");
+         			      Colega("Ana Carolina","entrou no colégio arrasando corações da sala");
+         			      Colega("Aurélia","Rogéria Bundchen, a própria perfeição em pessoa");
+         			      Colega("Bruna Bicalho","nunca se aperreia com as bibas de Paragominas");
+         			      Colega("Bruna Carolina","garota feliz, alegre e saltitante que ficou ainda mais serelepe depois de tirar o aparelho");
+         			      Colega("Caio Magno","indivíduo de léxico extenso que sonha em descobrir o que tem no espaço vazio");
+         			      Colega("Carlos","o traficante de salgados que deu o maior prejuízo para a cantina");
+         			      Colega("Cayo Emílio","O Homem pimenta que adora desenhar huevos super saiyajin");
+         			      Colega("Cristina","a nossa querida leitoa que está nos deixando este ano");
+						        Colega("Davidson","sonha em conquistar o mundo com seu huevo");
+         			      Colega("Débora","a única duenda que toca bateria");
+         			      Colega("Evelyn","a nossa \"Valéria\" da malhação");
+         			      Colega("Felipe Rêgo","menino lesado que bota fogo na casa e toma telhada na boca");
+         			      Colega("Fernanda","menina que fala mais rápido que o Davidson e o Eminen, usando um idioma desconhecido");
+         			      Colega("Fernando","garoto espanhol, turista no Brasil e na sala de aula. Tem um casa aparte com Natalino");
+         			      Colega("Flávio","excesso de lerdeza e quando fica sozinho só sai detritos de sua cabeça");
+         			      Colega("Heloísa","vocalista consagrada da Euterpe, que sofre de insuficiência auditiva e adora um mascavo");
+         			      Colega("Henrique","garoto internético cheio de BOs no colégio inteiro");
+         			      Colega("Jaqueline","tem suas lembranças com a grade do campo e é amiguinha confidencial de Polyana");
+         			      Colega("Kênia","ex-coelhinha de bochechas flácidas. Tem um macaquinho aleijado");
+         			      Colega("Leandro","cabelinho de cogumelo e turista no colégio");
+         			      Colega("Leôncio","garoto maroto de léxico enorme e alegria contagiante. É a satisfação das meninas");
+         			      Colega("Lilian","garotinha bonitinha, meiguinha, boazinha, fala baixinho, é uma gracinha e todo mundo adora");
+         			      Colega("Luciana","todo dia está com um irmão mais novo no cinema");
+         			      Colega("Luiz Felipe","mais conhecido como \"Pão\", é um menino artista que sofre de oxiúros na cloaca");
+         			      Colega("Luiz Octávio","é um menino altista cujo hobby é a prática de rotação de cadernos");
+         			      Colega("Marcos Túlio","garotinho do pensamento ecológico, anda com a cabeça verde");
+         			      Colega("Matheus","é o mais bonzão da turma (depois do Leandro) e adora zoar o Leôncio");
+         			      Colega("Milena","garotinha baixinha empolgada com o baixo. É a única pessoa que chora quando vê Ms. Simpatia");
+         			      Colega("Polyana","adora encher o saco dos professores, apesar de ser uma menina obediente");
+         			      Colega("Renata","menina inocente que sonha em ser freira");
+         			      Colega("Rodolfo","a rena de Papai Noel de asas e narizim vermelho");
+         			      Colega("Salomão","sonha em ser um engenheiro químico mas esqueceu de fazer o último dever do Maurício");
+         			      Colega("Samara","sapinha do nosso coração que tem um caso enternecedor com Natalino");
+         			      Colega("Thiago","menino político prolixo que se empolga com seus longos discursos de léxico grande. Votem no porco!");
+         			      Colega("Vitor Sendin","garoto bombado piolho de academia");
+         			      Colega("Yara","a mais nova coelhinha de Brumadinho");
+						  Texto("De: <font class='muda" + cor + "'>Flávio</font>, <font class='muda" + cor + "'>Banana</font> e <font class='muda" + cor + "'>Leite</font>","right");
+				          document.write("<br><br>");
+						  Texto("Faça o <a href='downloads\\cerimonial.zip' class='muda" + cor + "' OnMouseOver='this.className=\"links4\";' OnMouseOut='this.className=\"muda" + cor + "\";'>download</a> no formato Word (.doc)","center");
+				FechaLinha();
+
+
+				  document.write("<tr height='100%'><td background='gifs/amostraforte" + cor + ".gif'></td><td></td><td><img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'></td></tr>");
+
+			document.write("</table>");
+		  document.write("</td>");
+		document.write("</tr>");
+      document.write("</table>");
+	};
+	function AbreLinha()
+	{
+	  document.write("<tr>");
+	    document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+		    document.write("<tr>");
+			  document.write("<td>");
+	};
+	function FechaLinha()
+	{
+	          document.write("</td>");
+	        document.write("</tr>");
+	      document.write("</table>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+		document.write("</td>");
+	  document.write("</tr>");
+	};
+	function Texto(texto,posicao)
+	{
+					  document.write("<table cellpadding='0' cellspacing='2' width='100%'>");
+						document.write("<tr>");
+						    document.write("<td valign='top'>");
+						      document.write("<font class='links4'>");
+								document.write("<p align='" + posicao + "'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + texto + "</p>");
+							  document.write("</font>");
+					        document.write("</td>");
+						document.write("</tr>");
+					  document.write("</table>");
+    }
+	function Colega(nome,descricao)
+	{
+					  document.write("<table cellpadding='0' cellspacing='2' width='100%'>");
+						document.write("<tr>");
+						    document.write("<td align='left' valign='top'>");
+						      document.write("<font class='muda" + cor + "'>");
+							    document.write("" + nome + ":");
+							  document.write("</font>");
+					        document.write("</td>");
+							document.write("<td align='left'>");
+							  document.write("<font class='links4'>");
+							    document.write("" + descricao + "");
+							  document.write("</font>");
+							document.write("</td>");
+						document.write("</tr>");
+					  document.write("</table>");
+	};
+	</script>
+	<div style="height: 100%">
+	<script>Conteudo();</script>
+	</div>
+	</td>
+    <td width=155 height="100%" valign="top">
+      <!--#include virtual="rightbranco.htm" -->
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

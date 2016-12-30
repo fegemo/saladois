@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>:: SalaDois :: "A Sala que fez história e virou lenda..."</title>
+<link rel="stylesheet" href="csss/links.css" type="text/css">
+<link rel="SHORTCUT ICON" href="sd.ico">
+<script src="scripts/troca-cor.js"></script>
+<script src="scripts/enviar-bug.js"></script>
+</head>
+
+<link rel="stylesheet" href="csss/jornal.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#000000">
+<table width="779" border="0" cellspacing="0" cellpadding="0" align="left" height="100%">
+  <tr>
+    <td colspan="3" height="56">
+      <!--#include virtual="title.htm" -->
+    </td>
+  </tr>
+  <tr height="100%">
+    <td width=88 valign="top" height="100%">
+      <!--#include virtual="menu.htm" -->
+    </td>
+    <td width=536 height="100%" valign="top">
+      <script>
+	function Conteudo()
+	{
+	  document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+	    document.write("<tr>");
+		  document.write("<td valign='top' align='left'>");
+	        document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+			  document.write("<tr>");
+			    document.write("<td width='67' height='28'>");
+			      document.write("<img src='gifs/topbar" + cor + ".gif' width='67' height='28'>");
+			    document.write("</td>");
+			    document.write("<td width='383' height='28' background='gifs/amostraforte" + cor + ".gif'>");
+			      document.write("<center><font size='3' face='Verdana' color='#FFFFFF'><b>:: SalaDois ::</b></font></center>");
+			    document.write("</td>");
+			    document.write("<td width='46' height='28'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='28'>");
+			    document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td colspan='2' background='gifs/amostraforte" + cor + ".gif' height='46'>");
+				document.write("</td>");
+				document.write("<td height='46' width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td width='67' background='gifs/amostraforte" + cor + ".gif'>");
+				document.write("</td>");
+				document.write("<td width='383'>");
+				  document.write("<font size='2' color='#000000' face='Verdana'><b>.:Jornal</b></font>");
+				  document.write("<br><br>");
+				document.write("</td>");
+				document.write("<td width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+
+			    AbreLinha();
+				  document.write("<font class='links4'>");
+				    document.write("<center>Edição de número 7: 17/03 a 23/03 do ano de 2001</center>");
+					document.write("<br>");
+				  document.write("</font>");
+				FechaLinha();
+
+			    AbreLinha();
+				document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+			      AbreLinhaM();
+				    Noticia("Natalino diz que todo dia, às 17:46, faz algo que ninguém pensava que ele era capaz de falar. \"É um momento divino\" diz ele","1");
+					Noticia("Leôncio diz que da próxima vez que o chamarem de Salomão, vai rolar o espanco pra cima do cara!","2");
+					Noticia("Todo mundo em Pânico na hora da primeira prova de Química e Física da história da SalaDois. É só usar a bundinha!!!","3");
+				  FechaLinhaM();
+			      AbreLinhaM();
+				    NoticiaImagem("Flávio passa o maior aperto no shopping: sua sogra e a filha dela chegam por trás e começam a conversar com Luiz Cláudio! Essa foi por pouco!","4","gifs\\galinha.gif","A filha da sogra dele");
+					Noticia("Pinguim deixa alunos de castigo. Aluno propõe mapeamento de sala na aula de Educação Física. Anta!!","1");
+					Noticia("Leite quer fazer uma experiência DNAlógica: quer pegar a voz da Evelyn, somar com a do Salomão e mixar com a da Luciene","2");
+				  FechaLinhaM();
+			      AbreLinhaM();
+				    Noticia("Os novos representantes da sala foram eleitos, e impõem regras: #1: Sempre estou certo. #2: Se estiver errado, volte à regra #1.","3");
+					Noticia("Banana está quieto de novo... será que está apaixonado de novo? Débora está pesquisando este caso","4");
+					Noticia("A doença do Banana quase faz sua casa pegar fogo! Ele fraquejou e colocou removedor de tinta no fogão! Pra quê? Não sei","1");
+				  FechaLinhaM();
+			      AbreLinhaM();
+				    Noticia("Daqui a algum tempo, modificaremos o layout da página, e colocaremos novas seções como Dicionário e Projetos (como o vírus verde)","2");
+					Noticia("A sala se renormaliza em questão de conversa (segundo Maria Helena). Agora é só manter o silêncio e descontar ele todo na aula do Natalino","3");
+					Noticia("Depois de presenciar os casos das bolinhas voadoras e do roubo de canetas vermelhas, Leôncio testemunha a piracema dos esporos Roswellanos","4");
+				  FechaLinhaM();
+				document.write("</table>");
+				FechaLinha();
+
+				AbreLinha();
+				  document.write("<br><br>");
+				  document.write("<center>");
+					document.write("<a href='jornal.html' class='links4' OnMouseOver='this.className=\"muda" + cor + "\";' OnMouseOut='this.className=\"links4\";'>");
+				    document.write("Voltar");
+				    document.write("</a>");
+				  document.write("</center>");
+				FechaLinha();
+
+				  document.write("<tr height='100%'><td background='gifs/amostraforte" + cor + ".gif'></td><td></td><td><img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'></td></tr>");
+
+			document.write("</table>");
+		  document.write("</td>");
+		document.write("</tr>");
+      document.write("</table>");
+	}
+	function AbreLinha()
+	{
+	  document.write("<tr>");
+	    document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+		    document.write("<tr>");
+			  document.write("<td>");
+	}
+	function FechaLinha()
+	{
+	          document.write("</td>");
+	        document.write("</tr>");
+	      document.write("</table>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+		document.write("</td>");
+	  document.write("</tr>") ;
+	}
+	function AbreLinhaM()
+	{
+	  document.write("<tr>");
+	}
+	function FechaLinhaM()
+	{
+	  document.write("</tr>");
+	}
+	function Noticia(texto,outracor)
+	{
+	              document.write("<td align='left' valign='top'>");
+				    document.write("<font class='coroutra" + outracor + "'>");
+					  document.write("<img src='gifs\\bola" + cor + ".gif' width='8' height='8'>");
+					  document.write("<b> " + texto + "</b>");
+					document.write("</font>");
+				  document.write("</td>");
+	}
+	function NoticiaImagem(texto,outracor,imagem,alternate)
+	{
+	              document.write("<td align='left' valign='top'>");
+				    document.write("<font class='coroutra" + outracor + "'>");
+					  document.write("<img src='" + imagem + "' alt='" + alternate + "'>");
+					  document.write("<b> " + texto + "</b>");
+					document.write("</font>");
+				  document.write("</td>");
+	}
+	</script>
+	<div style="height: 100%">
+	<script>Conteudo();</script>
+	</div>
+	</td>
+    <td width=155 height="100%" valign="top">
+      <!--#include virtual="rightbranco.htm" -->
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

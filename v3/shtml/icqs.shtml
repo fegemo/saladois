@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>:: SalaDois :: "A Sala que fez história e virou lenda..."</title>
+<link rel="stylesheet" href="csss/links.css" type="text/css">
+<link rel="SHORTCUT ICON" href="sd.ico">
+<script src="scripts/troca-cor.js"></script>
+<script src="scripts/enviar-bug.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#000000">
+<table width="779" border="0" cellspacing="0" cellpadding="0" align="left" height="100%">
+  <tr>
+    <td colspan="3" height="56">
+      <!--#include virtual="title.htm" -->
+    </td>
+  </tr>
+  <tr height="100%">
+    <td width=88 valign="top" height="100%">
+      <!--#include virtual="menu.htm" -->
+    </td>
+    <td width=536 height="100%" valign="top">
+      <script>
+	function Conteudo()
+	{
+	  document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+	    document.write("<tr>");
+		  document.write("<td valign='top' align='left'>");
+	        document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+			  document.write("<tr>");
+			    document.write("<td width='67' height='28'>");
+			      document.write("<img src='gifs/topbar" + cor + ".gif' width='67' height='28'>");
+			    document.write("</td>");
+			    document.write("<td width='383' height='28' background='gifs/amostraforte" + cor + ".gif'>");
+			      document.write("<center><font size='3' face='Verdana' color='#FFFFFF'><b>:: SalaDois ::</b></font></center>");
+			    document.write("</td>");
+			    document.write("<td width='46' height='28'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='28'>");
+			    document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td colspan='2' background='gifs/amostraforte" + cor + ".gif' height='46'>");
+				document.write("</td>");
+				document.write("<td height='46' width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td width='67' background='gifs/amostraforte" + cor + ".gif'>");
+				document.write("</td>");
+				document.write("<td width='383'>");
+				  document.write("<font size='2' color='#000000' face='Verdana'><b>.:ICQs</b></font>");
+				  document.write("<br><br>");
+				document.write("</td>");
+				document.write("<td width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+
+			    AbreLinha();
+				  document.write("<td>");
+				  document.write("<table width='100%' cellpadding='0' cellspacing='1'>");
+				    Cabecalho();
+					ICQ("Ana Carolina",":) /Aninh@","167996283")
+					ICQ("Aurélia","-=|ŵ�飡�|=","59315207");
+					ICQ("Amanda","M@NDINH@","122724140");
+					ICQ("Bárbara","�B�rbara�","163118941")
+					ICQ("Caio Magno","Magno","86624582");
+					ICQ("Cayo Emílio","�t�ik���[LH]","87165036");
+					ICQ("Cristina","cris","172769153")
+					ICQ("Daniel","-�aantje-","107236862")
+					ICQ("Davidson","Davidson  LH ","97795995");
+					ICQ("Débora","***-|-B�dur�-|-***","100023045");
+					ICQ("Felipe","�W@��o�k�","93315396");
+					ICQ("Fernanda","��-N�nd��h�-��","116489637");
+					ICQ("Flávio","�arunia [LH]","73302977");
+					ICQ("Francisco","MELKOR","91649433")
+					ICQ("Heloísa","* Hel� *","172220096")
+					ICQ("Henrique","DeadKing [LH]","55624861");
+					ICQ("Leandro","Dickinson","100335070");
+					ICQ("Leôncio","-=�|*Valandil*|�=-","63830162");
+					ICQ("Luciana","*��u��*","172703684");
+					ICQ("Luiz Felipe","   P��_in-line   ","89142695");
+					ICQ("Luiz Octávio","BOMBER MAN","98507647");
+					ICQ("Marisa dos Reis","�Marisa�","64201353");
+					ICQ("Marcus Túlio","Tulinhu","127682805");
+					ICQ("Matheus Rezende","Calavera [LH]","78268948");
+					ICQ("Milena","Nena do Peregrino","64791346");
+					ICQ("Polyana","Poly","168617922");
+					ICQ("Rodolfo","bel�m","107111486");
+					ICQ("Salomão","... [LH]","175123541");
+					ICQ("Thiago","Apaixonado","122724140");
+					ICQ("Thiago P.","(P@sch�@l�) �","152358817")
+					ICQ("Vitor","C.M.Sendin","103963415");
+				  document.write("</table>");
+				  document.write("</td>");
+				FechaLinha();
+
+
+				  document.write("<tr height='100%'><td background='gifs/amostraforte" + cor + ".gif'></td><td></td><td><img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'></td></tr>");
+
+			document.write("</table>");
+		  document.write("</td>");
+		document.write("</tr>");
+      document.write("</table>");
+	};
+	function AbreLinha()
+	{
+	  document.write("<tr>");
+	    document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+		    document.write("<tr bgcolor='#FFFFFF'>");
+	};
+	function FechaLinha()
+	{
+	        document.write("</tr>");
+	      document.write("</table>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+		document.write("</td>");
+	  document.write("</tr>") ;
+	};
+	function Cabecalho()
+	{
+	                document.write("<tr class='" + clsmenuout + "'>");
+					  document.write("<td align='center'>");
+					    document.write("<font size='1' color='#000000' face='Verdana'><b>");
+						  document.write("Nome");
+						document.write("</b></font>");
+					  document.write("</td>");
+					  document.write("<td align='center'>");
+						document.write("<font size='1' color='#000000' face='Verdana'><b>");
+						  document.write("Nick");
+						document.write("</b></font>");
+				      document.write("</td>");
+					  document.write("<td align='center'>");
+					    document.write("<font size='1' color='#000000' face='Verdana'><b>");
+						  document.write("UIN");
+						document.write("</b></font>");
+					  document.write("</td>");
+					document.write("</tr>");
+	};
+	function ICQ(nome,nick,uin)
+	{
+	                document.write("<tr class='" + clsmenuin + "'>");
+					  document.write("<td align='center'>");
+					    document.write("<font class='muda" + cor + "'>");
+						  document.write("" + nome + "");
+						document.write("</font>");
+					  document.write("</td>");
+					  document.write("<td align='center'>");
+					    document.write("<font size='1' color='#000000' face='Verdana'><b>");
+						  document.write("" + nick + "");
+						document.write("</b></font>");
+					  document.write("</td>");
+					  document.write("<td align='center'>");
+					    document.write("<font size='1' color='#000000' face='Verdana'>");
+						  document.write("" + uin + "");
+						document.write("</font>");
+					  document.write("</td>");
+					document.write("</tr>");
+	};
+	</script>
+	<div style="height: 100%">
+	<script>Conteudo();</script>
+	</div>
+	</td>
+    <td width=155 height="100%" valign="top">
+      <!--#include virtual="rightbranco.htm" -->
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

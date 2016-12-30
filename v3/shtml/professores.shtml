@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>:: SalaDois :: "A Sala que fez história e virou lenda..."</title>
+<link rel="stylesheet" href="csss/links.css" type="text/css">
+<link rel="SHORTCUT ICON" href="sd.ico">
+<script src="scripts/troca-cor.js"></script>
+<script src="scripts/enviar-bug.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#000000">
+<table width="779" border="0" cellspacing="0" cellpadding="0" align="left" height="100%">
+  <tr>
+    <td colspan="3" height="56">
+      <!--#include virtual="title.htm" -->
+    </td>
+  </tr>
+  <tr height="100%">
+    <td width=88 valign="top" height="100%">
+      <!--#include virtual="menu.htm" -->
+    </td>
+    <td width=536 height="100%" valign="top">
+      <script>
+	function Conteudo()
+	{
+	  document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+	    document.write("<tr>");
+		  document.write("<td valign='top' align='left'>");
+	        document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+			  document.write("<tr>");
+			    document.write("<td width='67' height='28'>");
+			      document.write("<img src='gifs/topbar" + cor + ".gif' width='67' height='28'>");
+			    document.write("</td>");
+			    document.write("<td width='383' height='28' background='gifs/amostraforte" + cor + ".gif'>");
+			      document.write("<center><font size='3' face='Verdana' color='#FFFFFF'><b>:: SalaDois ::</b></font></center>");
+			    document.write("</td>");
+			    document.write("<td width='46' height='28'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='28'>");
+			    document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td colspan='2' background='gifs/amostraforte" + cor + ".gif' height='46'>");
+				document.write("</td>");
+				document.write("<td height='46' width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td width='67' background='gifs/amostraforte" + cor + ".gif'>");
+				document.write("</td>");
+				document.write("<td width='383'>");
+				  document.write("<font size='2' color='#000000' face='Verdana'><b>.:Professores</b></font>");
+				  document.write("<br><br>");
+				document.write("</td>");
+				document.write("<td width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+
+
+				AbreLinha();
+					  document.write("<table cellpadding='0' cellspacing='2'>");
+						QualquerUm("<div align='left'><font class='muda" + cor + "'>Lista de professores de 2002:</font></div>","","");
+						QualquerUm("<br>","","");
+						document.write("<tr>");
+						  document.write("<td colspan='4'>");
+						    document.write("<table cellpadding='0' cellspacing='2'>");
+						      Professor("Carlão","Professor de Física","Alguns acham que ele é a reencarnação do carinha que faz o filme Uma mente brilhante, é o professor que sempre nos acompanha no baoburgão, adoram seus brinquedos principalmente os carrinhos");
+							  Professor("Carolina","Professora de Espanhol","Costumava ser muito brava mais esse ano está mansinha, a professora que d aos trabalhos mais divertidos e responsáveis pela descoberta de talentos na sala");
+							  Professor("Edson","Professor de História","Professor de historia que tem vários apelidos como Zé gotinha, e quebra galho, adora ver sua sala vazia nas aulas e é o maior adepto do AH NÃO");
+							  Professor("Juldete","Professora de Português","Mãe do nosso amigo Rodolfo, adora  fazer leituras sub-lineares e a única professora que Poe todos pra pelo menos copiar o dever")
+							  Professor("Júlio","Professor de Matemática","Professor de matemática que adora ser chamado de louco, o que mais houve reclamações sobre as provas e é também o pai do Flavinho")
+							  Professor("Luciene","Professora de Inglês","A professora de inglês, suas aulas sempre estão vazias porque todos adoram matar o 6º horário, gosta de passar filminhos como LION KING")
+							  Professor("Luiz Cláudio","Professor de Geografia","O professor que mais gosta de dar trabalhos trabalhosos, amado por muitos e odiado por muitos também");
+							  Professor("Natalino","Professor de Literatura","Esse continua o mesmo desde a 7 serie porem ultimamente tem alcançado orgasmos múltiplos ao ler poesias na sala. Adora mostrar-nos seus livros com pinturas barrocas");
+							  Professor("Odilon","Professor de Química","Nosso querido professor DIDI, o amor do Salomão e do Doido. Esse é um dos professores mais inteligentes e patolas o cara tem muita a manha de ensinar e de conversar sobre tudo. Tem um léxico bem moderno como: o que vai rolar, cara, dentre outras coisas");
+							  Professor("Patrícia","Professora de Educação Física","Nossa amada Anita, é outra que voltou esse ano bem mansinha, dizem que é pela convivência com seu marido Marcio, mas continua sem deixar as meninas lerem Capricho nas suas aulas");
+							  Professor("Reizinho","Professor de Biologia","o professor mais beozado de todos, adora contar piadinhas, e zoar o \"luquinha\" o único que consegue deixar a sala em completo silencio, se encontra sempre com o Leôncio no Carrefour, toda quinta-feira");
+							  Professor("Vinícius","Professor de Educação Física","Continua o mesmo de anos atrás, faz da educação física dos meninos uma verdadeira bagunça, principalmente quando cisma que é atleta");
+							document.write("</table>");
+						  document.write("</td>");
+						document.write("</tr>");
+						QualquerUm("<br>","","");
+						document.write("<tr>");
+						  document.write("<td width='7%'></td>");
+						  document.write("<td width='43%'></td>");
+						  document.write("<td width='43%'></td>");
+						  document.write("<td width='7%'></td>");
+						document.write("</tr>");
+					  document.write("</table>");
+				FechaLinha();
+
+
+
+
+				AbreLinha();
+					  document.write("<table cellpadding='0' cellspacing='2'>");
+						QualquerUm("<div align='left'><font class='muda" + cor + "'>Lista de professores de 2000/2001:</font></div>","","");
+						QualquerUm("<br>","","");
+						document.write("<tr>");
+						  document.write("<td colspan='4'>");
+						    document.write("<table cellpadding='0' cellspacing='2'>");
+						      Professor("Carolina","Professora de Espanhol (intermediário)","Com uma explicação muito boa, dá <font class='muda" + cor + "'>trabalhos bem trabalhosos</font> do tipo ter que saber tudo sobre as províncias espanholas e coisas mais difíceis ainda");
+							  Professor("Daniela","Professora de Inglês (básico)","Tem um jeito muito bom ensinar e quando vem algum caso em sua cabeça que ela julga patola, pára a aula e começa a <font class='muda" + cor + "'>encenar</font> no tablado");
+							  Professor("Luciene","Professora de Inglês (intermediário)","Possuidora de uma metodologia de ensino bastante... de <font class='muda" + cor + "'>4ª série</font> (como ela gosta de chamar os seus querdidos alunos), briga para que os alunos prestem atenção nas explicações");
+							  Professor("Luiz Cláudio","Professor de Geografia","Usufruinte de uma <font class='muda" + cor + "'>relação bastante enternecedora</font> com a SalaDois, escreve frases do dia e conhece cada aluno mais do que este próprio. Frustra-se com o desleixo de alguns projetos inacabados");
+							  Professor("Maria Helena","Professora de Matemática","Depois de várias brigas devidas ao excesso de conversa, Maria Helena se tornou uma \"<font class='muda" + cor + "'>mãe</font>\" para os habitantes da SalaDois (em suas próprias palavras)");
+							  Professor("Marissol","Professora de Espanhol (básico)","Mãe de um dos integrantes da SalaDois, está atenta a tudo que acontece dentro da sala de aula. É só um mísero boné cair no chão que ela sabe de quem é e o <font class='muda" + cor + "'>manda passear na Andréia</font>");
+							  Professor("Maurício","Professor de Química e Física","Talvez, <font class='muda" + cor + "'>um dos professores mais pregos</font> da história da SalaDois, adora zoar as pessoas e tirar ponto dos pobres alunos");
+							  Professor("Michael","Professor de Biologia","Apesar de não lecionar mais no ano de 2001, este professor faz parte da SalaDois em 3 anos de convivência (que sofrimento!). Tinha um caso especial com um aluno e <font class='muda" + cor + "'>o expulsava em toda aula</font>");
+							  Professor("Natalino","Professor de Português e Redação","Defensor fiel da <font class='muda" + cor + "'>democracia em sala de aula</font>, este professor todo dia, às 17:46 faz uma coisa que julga sagrada, e conta como foi no dia seguinte. É um detentor nato de um léxico imenso e adora expô-lo para a sala<br>Boa sorte Natalino!");
+							  Professor("Nívea","Professora de Ética","Se simpatiza facilmente com os alunos e adora fazer projetos sobre <font class='muda" + cor + "'>solidariedade</font>");
+							  Professor("Patrícia","Professora de Educação Física","Estilo \"<font class='muda" + cor + "'>mauzona</font>\" de ser, não deixa nenhuma menina matar aula para ficar lendo aquelas revistinhas de capa rosa");
+							  Professor("Paulão","Professor de História","Adepto ao \"estudo sob pressão\", faz os alunos estudarem dia e noite e irem bem na prova sem que percebam. Sua <font class='muda" + cor + "'>ideologia de vida</font> é PHN");
+							  Professor("Vinícius","Professor de Educação Física","Pessoa que preserva alguns traços fundamentalistas em seu trabalho, como <font class='muda" + cor + "'>deixar os alunos de castigo</font> e etc. Gosta muito de ver seus alunos brincando de adoleta");
+							document.write("</table>");
+						  document.write("</td>");
+						document.write("</tr>");
+						QualquerUm("<br>","","");
+						document.write("<tr>");
+						  document.write("<td width='7%'></td>");
+						  document.write("<td width='43%'></td>");
+						  document.write("<td width='43%'></td>");
+						  document.write("<td width='7%'></td>");
+						document.write("</tr>");
+					  document.write("</table>");
+				FechaLinha();
+
+
+				  document.write("<tr height='100%'><td background='gifs/amostraforte" + cor + ".gif'></td><td></td><td><img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'></td></tr>");
+
+			document.write("</table>");
+		  document.write("</td>");
+		document.write("</tr>");
+      document.write("</table>");
+	};
+	function AbreLinha()
+	{
+	  document.write("<tr>");
+	    document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+		    document.write("<tr>");
+			  document.write("<td>");
+	};
+	function FechaLinha()
+	{
+	          document.write("</td>");
+	        document.write("</tr>");
+	      document.write("</table>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+		document.write("</td>");
+	  document.write("</tr>");
+	};
+	function Professor(nome,disciplina,descricao)
+	{
+							  document.write("<tr>");
+							    document.write("<td align='center' bgcolor='#FFFFFF'>");
+								  document.write("<font class='muda" + cor + "'>");
+								    document.write("" + nome + "");
+								  document.write("</font>");
+								document.write("</td>");
+								document.write("<td align='center' bgcolor='#FFFFFF'>");
+								  document.write("<font class='links4'>");
+								    document.write("" + disciplina + "");
+								  document.write("</font>");
+								document.write("</td>");
+								document.write("<td align='center' bgcolor='#FFFFFF'>");
+								  document.write("<font class='links4'>");
+								    document.write("" + descricao + "");
+								  document.write("</font>");
+								document.write("</td>");
+							  document.write("</tr>");
+	};
+	function QualquerUm(texto,imagem,alternate)
+	{
+						document.write("<tr>");
+						  if (imagem!="") {
+						    document.write("<td>");
+							  document.write("<img src='" + imagem + "' alt='" + alternate + "' width='30' height='30'>");
+							document.write("</td>");
+							document.write("<td align='center' colspan='2'>");
+							  document.write("<font class='links4'>");
+							    document.write("" + texto + "");
+							  document.write("</font>");
+							document.write("</td>");
+							document.write("<td>");
+							  document.write("<img src='" + imagem + "' alt='" + alternate + "' width='30' height='30'>");
+							document.write("</td>");
+						  }
+						  else {
+						    document.write("<td align='center' colspan='4'>");
+						      document.write("<font class='links4'>");
+							    document.write("" + texto + "");
+							  document.write("</font>");
+					        document.write("</td>");
+						}
+						document.write("</tr>");
+	};
+	</script>
+	<div style="height: 100%">
+	<script>Conteudo();</script>
+	</div>
+	</td>
+    <td width=155 height="100%" valign="top">
+      <!--#include virtual="rightbranco.htm" -->
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

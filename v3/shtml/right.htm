@@ -1,0 +1,49 @@
+<script>
+function Radial()
+{
+  document.write("<table cellpadding='0' valign='top' cellspacing='0' width='155' height='100%'>")
+    document.write("<tr>")
+      document.write("<td background='gifs/radialhorizontal" + cor + ".gif' width='100%' height='100%' valign='top'>")
+        document.write("<br>")
+		document.write("<font size='1' color='#000000' face='Verdana'><center><b>Enquete</b></center>")
+		document.write("<br><br>")
+		document.write("Quem é o indivíduo que está realizando o fenômeno de abertura automática da porta da nossa Sala?")
+		document.write("<FORM ACTION='http://vote.sparklit.com/popup_poll.spark' target='pollwindow' OnSubmit='VoteWindow()' METHOD='POST'>");
+		document.write("<INPUT TYPE=hidden NAME=ID VALUE='697425'>");
+		   document.write("<br><INPUT TYPE='radio' NAME='ballot' VALUE='0'>As correntes de ar provenientes da floresta encantada de igarapé")
+		   document.write("<br><input type='radio' name='ballot' value='1'>O acúmulo de gases de queimação de lata de alguns saladoisanos")
+		   document.write("<br><input type='radio' name='ballot' value='2'>Os espíritos do além")
+		   document.write("<br><input type='radio' name='ballot' value='3'>Um duende")
+		   document.write("<br><input type='radio' name='ballot' value='4'>O DEMÔÔÔÔÔÔNIO")
+		   document.write("<br><input type='radio' name='ballot' value='5'>A Valda")
+		   document.write("<br><input type='radio' name='ballot' value='6'>O cachorro do Flávio (o Prego)")
+		   document.write("<br><br><center><INPUT TYPE='submit' VALUE='Enviar' NAME='submit'>")
+		   document.write("<br><a href='http://vote.sparklit.com/popup_poll.spark/697425' OnClick='VoteWindow();' target='pollwindow' class='links1' OnMouseOver='this.className=\"links4\";' OnMouseOut='this.className=\"links1\";'>Resultados</a></font>")
+		   document.write("<br><br><a href='enquete1.htm' OnClick='AntigoResultado();' target='pollwindow' class='links1' OnMouseOver='this.className=\"links4\";' OnMouseOut='this.className=\"links1\";'>Última Pesquisa</a></center>");
+        document.write("</form>")
+	  document.write("</td>")
+    document.write("</tr>")
+	document.write("<tr>")
+	  document.write("<td background='gifs/radialhorizontal" + cor + ".gif' width='100%' height='100%'>")
+	    document.write("<hr width='60%'>")
+		document.write("<br><font size='1' color='#000000' face='Verdana'><center><b>Links</b>")
+		document.write("<br><br><a href='http://www.pitagoras.com.br/' class='links1' OnMouseOver='this.className=\"links4\";' OnMouseOut='this.className=\"links1\";'>Pitágoras.com.br</a>")
+        document.write("<br><a href='http://www.educarenet.com.br/' class='links1' OnMouseOver='this.className=\"links4\";' OnMouseOut='this.className=\"links1\";'>Pitágoras Betim</a>")
+		document.write("<br><a href='http://www.superdownloads.com.br/' class='links1' OnMouseOver='this.className=\"links4\";' OnMouseOut='this.className=\"links1\";'>Superdownloads</a>")
+        document.write("</center></font>")
+	  document.write("</td>")
+    document.write("</tr>")
+  document.write("</table>")
+}
+function AntigoResultado() {
+ window.open("enquete1.htm","pollwindow","toolbar=no,scrollbars=no,directories=no, status=no,menubar=no,resizable=no,width=469,height=150");
+}
+function VoteWindow() {
+ window.open("http://vote.sparklit.com/wait.html","pollwindow","toolbar=no,scrollbars=no,directories=no, status=no,menubar=no,resizable=yes,width=469,height=430")
+}
+
+</script>
+
+<div valign='top' style='height: 100%;'>
+  <script>Radial();</script>
+</div>

@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>:: SalaDois :: "A Sala que fez história e virou lenda..."</title>
+<link rel="stylesheet" href="csss/links.css" type="text/css">
+<link rel="SHORTCUT ICON" href="sd.ico">
+<script src="scripts/troca-cor.js"></script>
+<script src="scripts/enviar-bug.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#000000">
+<table width="779" border="0" cellspacing="0" cellpadding="0" align="left" height="100%">
+  <tr>
+    <td colspan="3" height="56">
+      <!--#include virtual="title.htm" -->
+    </td>
+  </tr>
+  <tr height="100%">
+    <td width=88 valign="top" height="100%">
+      <!--#include virtual="menu.htm" -->
+    </td>
+    <td width=536 height="100%" valign="top">
+      <script>
+	function Conteudo()
+	{
+	  document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+	    document.write("<tr>");
+		  document.write("<td valign='top' align='left'>");
+	        document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+			  document.write("<tr>");
+			    document.write("<td width='67' height='28'>");
+			      document.write("<img src='gifs/topbar" + cor + ".gif' width='67' height='28'>");
+			    document.write("</td>");
+			    document.write("<td width='383' height='28' background='gifs/amostraforte" + cor + ".gif'>");
+			      document.write("<center><font size='3' face='Verdana' color='#FFFFFF'><b>:: SalaDois ::</b></font></center>");
+			    document.write("</td>");
+			    document.write("<td width='46' height='28'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='28'>");
+			    document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td colspan='2' background='gifs/amostraforte" + cor + ".gif' height='46'>");
+				document.write("</td>");
+				document.write("<td height='46' width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td width='67' background='gifs/amostraforte" + cor + ".gif'>");
+				document.write("</td>");
+				document.write("<td width='383'>");
+				  document.write("<font size='2' color='#000000' face='Verdana'><b>.:WebMasters</b></font>");
+				  document.write("<br><br>");
+				document.write("</td>");
+				document.write("<td width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+
+			    AbreLinha();
+				    WebMaster("Flávio Roberto","gifs\\smiletongue.gif","15 anos (16/07/1986)","73302977","flavioroberto@uaimail.com.br","Frio é psicológico","Um cara zoador, que enche o saco do Banana, Leôncio etc. Uma pessoa meio contraditória, que ás vezes fala uma coisa e faz outra. Dizem que é lerdo, mas ele não acha... Em suas próprias palavras, \"ele é um cara patola!\"","Pentium III 550, 56 de RAM DIMM, Modem 56bps, Teclado Troni 2000, monitor Sansung 14 polegadas (tela plana), Drive de CD-rom 52x Max, Mouse UPSON 3-Botões e HD de 8.397.991.936 Bytes com Windows 98");
+			    FechaLinha();
+				AbreLinha();
+					WebMaster("Henrique Leite","gifs\\smilebiggreen.gif","14 anos (10/03/1987)","55624861","leite_leite@mailbr.com.br","Pipoca não tem Antena e Tijolo não solta Pipa","Começou a mexer com computadores aos seus 9 anos com o Windows 3.11 e hoje é um viciado maniaco que não troca seu computador por nade nesse mundo (em outros mundos talvez..)","Pentium III 550, 64 de RAM DIMM e Voodoo 3000 AGP com uma placa mãe ASUS P2-99, Modem Us RObotics 36bps v34 ISA, Teclado AOC , monitor tb AOC de 14 polegadas Spectrum 4v (não-plana), Drive de CD-rom CREATIVE 52x, Gabinete ATX, linha DIGITAL, Mouse LOGITECH 3-Botões, placa de som Eqsonic da Sound Blaster, HD Maxtor Milenium de 10.230.423.552 Bytes como MASTER na IDE1 rodando Windows 98 e um HD Sansung de 1.5GB na IDE2 como Master rodando Conectiva Linux 5.0 ");
+				FechaLinha();
+				AbreLinha();
+					WebMaster("Leôncio Caetano","gifs\\galinha.gif","14 anos","63830162","mcfarias@uai.com.br","Se banana florecesse nos campos, o mundo estaria perdido","Pokemaníaco. Gosta de desenhos japoneses e joga cartas de pokémon, digimon, monster ranger, Power Ranger, etc com seus colegas. Leôncio é o cara mais garanhão da sala, garra todas, não perdoa, é também chamado de Máquina Mortífera. Tomem cuidado com ele...","Pentium 166 MMX, Modem Trellis 33bps, HD de 4 GB </font><font face='Verdana' size='1' color='#000000'>(Leôncio não quer que se exiba mais informações sobre seu computador pois ele tem medo que aliens que caíram no acidente em Roswell roubem o seu PC e o use como lenha de fogueira para aquecer seus lares...) ");
+				FechaLinha();
+				AbreLinha();
+				    document.write("<br><br><font class='links4'><center>Colaboradores</center></font><br>");
+				FechaLinha();
+				AbreLinha();
+				    Colaborador("Elder (irmão do Flávio)","requisitou um espaço neste site com a justificativa de ter cedido tempo para a sua reformulação");
+				FechaLinha();
+				AbreLinha();
+				    document.write("<br>");
+				FechaLinha();
+
+
+				  document.write("<tr height='100%'><td background='gifs/amostraforte" + cor + ".gif'></td><td></td><td><img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'></td></tr>");
+
+			document.write("</table>");
+		  document.write("</td>");
+		document.write("</tr>");
+      document.write("</table>");
+	}
+	function AbreLinha()
+	{
+	  document.write("<tr>");
+	    document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+		    document.write("<tr>");
+			  document.write("<td>");
+	}
+	function FechaLinha()
+	{
+	          document.write("</td>");
+	        document.write("</tr>");
+	      document.write("</table>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+		document.write("</td>");
+	  document.write("</tr>");
+	}
+	function WebMaster(nome,imagem,idade,icq,email,frase,descricao,computador)
+	{
+				document.write("<table cellpadding='0' cellspacing='1' width='100%'>");
+				  document.write("<tr bgcolor='#FFFFFF'>");
+					document.write("<td width='100%'>");
+					  document.write("<font class='muda" + cor + "'>Nome:</font>");
+					  document.write("<font face='Verdana' size='1' color='#000000'> " + nome + "</font>");
+					document.write("</td>");
+					document.write("<td width='15'>");
+					  document.write("<img src='" + imagem + "' alt='" + nome + "'>");
+					document.write("</td>");
+				  document.write("</tr>");
+				  document.write("<tr bgcolor='#FFFFFF'>");
+					document.write("<td colspan='2' width='100%'>");
+					  document.write("<font class='muda" + cor + "'>Idade:</font>");
+					  document.write("<font face='Verdana' size='1' color='#000000'> " + idade + "</font>");
+					document.write("</td>");
+				  document.write("</tr>");
+				  document.write("<tr bgcolor='#FFFFFF'>");
+					document.write("<td colspan='2' width='100%'>");
+					  document.write("<font class='muda" + cor + "'>ICQ:</font>");
+					  document.write("<font face='Verdana' size='1' color='#000000'> " + icq + "</font>");
+					document.write("</td>");
+				  document.write("</tr>");
+				  document.write("<tr bgcolor='#FFFFFF'>");
+					document.write("<td colspan='2' width='100%'>");
+					  document.write("<font class='muda" + cor + "'>E-mail:</font>");
+					  document.write("<font class='links4'> <a href='mailto:" + email + "' class='links4' OnMouseOver='this.className=\"" + "muda" + cor + "\";' OnMouseOut='this.className=\"links4\";'>" + email + "</a></font>");
+					document.write("</td>");
+				  document.write("</tr>");
+				  document.write("<tr bgcolor='#FFFFFF'>");
+					document.write("<td colspan='2' width='100%'>");
+					  document.write("<font class='muda" + cor + "'>Frase:</font>");
+					  document.write("<font face='Verdana' size='1' color='#000000'> \"" + frase + "\"</font>");
+					document.write("</td>");
+				  document.write("</tr>");
+				  document.write("<tr bgcolor='#FFFFFF'>");
+					document.write("<td colspan='2' width='100%'>");
+					  document.write("<font class='muda" + cor + "'>Descrição:</font>");
+					  document.write("<font face='Verdana' size='1' color='#000000'> " + descricao + "</font>");
+					document.write("</td>");
+				  document.write("</tr>");
+				  document.write("<tr bgcolor='#FFFFFF'>");
+					document.write("<td colspan='2' width='100%'>");
+					  document.write("<font class='muda" + cor + "'>Computador:</font>");
+					  document.write("<font face='Verdana' size='1' color='#000000'> " + computador + "</font>");
+					document.write("</td>");
+				  document.write("</tr>");
+				document.write("</table>");
+	}
+	function Colaborador(nome,funcao)
+	{
+	            document.write("<font class='muda" + cor + "'>");
+				  document.write("" + nome + "</font><font face='Verdana' size='1' color='#000000'>: " + funcao + "");
+				document.write("</font>");
+	}
+	</script>
+	<div style="height: 100%">
+	<script>Conteudo();</script>
+	</div>
+	</td>
+    <td width=155 height="100%" valign="top">
+      <!--#include virtual="rightbranco.htm" -->
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

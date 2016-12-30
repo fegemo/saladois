@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>:: SalaDois :: "A Sala que fez história e virou lenda..."</title>
+<link rel="stylesheet" href="csss/links.css" type="text/css">
+<link rel="SHORTCUT ICON" href="sd.ico">
+<script src="scripts/troca-cor.js"></script>
+<script src="scripts/enviar-bug.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#000000">
+<table width="779" border="0" cellspacing="0" cellpadding="0" align="left" height="100%">
+  <tr>
+    <td colspan="3" height="56">
+      <!--#include virtual="title.htm" -->
+    </td>
+  </tr>
+  <tr height="100%">
+    <td width=88 valign="top" height="100%">
+      <!--#include virtual="menu.htm" -->
+    </td>
+    <td width=536 height="100%" valign="top">
+      <script>
+	function Conteudo()
+	{
+	  document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+	    document.write("<tr>");
+		  document.write("<td valign='top' align='left'>");
+	        document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+			  document.write("<tr>");
+			    document.write("<td width='67' height='28'>");
+			      document.write("<img src='gifs/topbar" + cor + ".gif' width='67' height='28'>");
+			    document.write("</td>");
+			    document.write("<td width='383' height='28' background='gifs/amostraforte" + cor + ".gif'>");
+			      document.write("<center><font size='3' face='Verdana' color='#FFFFFF'><b>:: SalaDois ::</b></font></center>");
+			    document.write("</td>");
+			    document.write("<td width='46' height='28'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='28'>");
+			    document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td colspan='2' background='gifs/amostraforte" + cor + ".gif' height='46'>");
+				document.write("</td>");
+				document.write("<td height='46' width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td width='67' background='gifs/amostraforte" + cor + ".gif'>");
+				document.write("</td>");
+				document.write("<td width='383'>");
+				  document.write("<font size='2' color='#000000' face='Verdana'><b>.:Placar</b></font>");
+				  document.write("<br><br>");
+				document.write("</td>");
+				document.write("<td width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+
+			    AbreLinha();
+				  document.write("<center>");
+					document.write("<font class='links4'>");
+					  document.write("Essa é uma área dedicada ao nosso querido professor Luiz Cláudio");
+				    document.write("</font>");
+				  document.write("</center>");
+				FechaLinha();
+				AbreLinha();
+					  document.write("<table cellpadding='0' cellspacing='2'>");
+						QualquerUm("A história é a seguinte:","","");
+						QualquerUm("Num dia ensolarado e feliz, no Colégio Educare Rede Pitágoras de Betim, mais precisamente em uma sala bem próxima aos toaletes inferiores do corredor principal, havia uma turma alegre e inocente, que de nada pensava além de contar carneirinhos e chupar pirulito de coraçãozinho, e, no meio dessa turma, estava um ser maquiavélico, que se aproveitava de todo tipo de ingenuidade para poder desenvolver seus planos diabólicos. Seu nome era <font class='muda" + cor + "'>Goiabinha</font>, o senhor Dumal!!","","");
+						QualquerUm("Foi então que resolveu colocar um de seus planos em prática e, ao avistar o pobre professor de Geografia no corredor, amarra um pedaço de planta à sua caneta, como se fosse um barbante, e a deixa cair levemente pela janela. Segurando a outra ponta, posiciona-se com a cabeça para fora da sala de modo que a comunicação com a vítima fosse possível. Foi aí que, num ato de crueldade, pediu para que o professor pegasse seu pobre objeto que havia caído pela janela num acidente. Impiedosamente, puxa o pequeno pedaço de planta-corda para cima, alguns décimos de segundo antes do alvo enconstar, deixando o professor desacreditado e conformado com a derrota. Isto seria o que dizemos: o fenômeno <font class='muda" + cor + "'>1x0 SalaDois</font>.","","");
+						QualquerUm("O professor que lecionaria no último horário dessa sala não havia comparecido ao recinto escolar. Nesse contexto, o professor paciente da crueldade feita por nosso colega, aceita ao encargo de dar aula para a turma que de caçadora passaria a ser caça. Ao bater o penúltimo sinal, chega o ofensor da rodada. Estava com expressão de resignação. Depois de alguns comentários maliciosos originados em nossa turma, o professor começa a passar a matéria no quadro. Alguns até cogitavam a indisplicência e o silêncio repentino do mestre ao passar seus conhecimentos. A sala inteira copiou toda a matéria que havia sido passada e, faltando 2 (dois) minutos para que o horário fosse finalizado, o professor nos pede para prestar atenção no que acabávamos de ter tomado nota:","","");
+						QualquerUm("<font class='muda" + cor + "'>Agenda 21:</font> capítulo 24<br><div align='left'>Metas</div>","","");
+						QualquerUm("<img src='gifs\\bola" + cor + ".gif'> Reduzir os níveis de resíduos sólidos provocados pela ingestão de alimentos gordurosos","","");
+						QualquerUm("<img src='gifs\\bola" + cor + ".gif'> Acompanhamento de níveis de coliformes fecais na água","","");
+						QualquerUm("<div align='left'>Objetivos</div>","","");
+						QualquerUm("<img src='gifs\\bola" + cor + ".gif'> Trabalhar com a faixa etária de 13 a 17 anos no incentivo ao cessamento de ingestão de frituras e salgadinhos","","");
+						QualquerUm("<img src='gifs\\bola" + cor + ".gif'> Se você está acostumado a copiar tudo que vê na frente, <font class='muda" + cor + "'>1x1</font>!!","","");
+						QualquerUm("<br>","","");
+						document.write("<tr>");
+						  document.write("<td align='center' colspan='4'>");
+						    document.write("<table border=0 cellpadding='1' cellspacing='1'>");
+						      document.write("<tr>");
+							    document.write("<td align='center' colspan='3' class='" + clsmenuout + "'>");
+								  if (cor!=3) { document.write("<font class='links4'>"); }
+								  else { document.write("<font class='links1'>"); }
+								    document.write("Placar atual (desde 07/201)");
+								  document.write("</font>");
+								document.write("</td>");
+							  document.write("</tr>");
+							  document.write("<tr>");
+							    document.write("<td align='center' class='" + clsmenuout + "'>");
+								  document.write("<font class='links1'>");
+								    document.write("2");
+								  document.write("</font>");
+								document.write("</td>");
+								document.write("<td align='center' class='" + clsmenuout + "'>");
+								  document.write("<font class='links1'>");
+								    document.write("x");
+								  document.write("</font>");
+								document.write("</td>");
+								document.write("<td align='center' class='" + clsmenuout + "'>");
+								  document.write("<font class='links1'>");
+								    document.write("1");
+								  document.write("</font>");
+								document.write("</td>");
+							  document.write("</tr>");
+							  document.write("<tr>");
+							    document.write("<td width='45%' align='center' class='" + clsmenuout + "'>");
+								  if (cor!=3) { document.write("<font class='links4'>"); }
+								  else { document.write("<font class='links1'>"); }
+								    document.write("SalaDois");
+								  document.write("</font>");
+								document.write("</td>");
+								document.write("<td width='10%' class='" + clsmenuout + "'></td>");
+								document.write("<td width='45%' align='center' class='" + clsmenuout + "'>");
+								  if (cor!=3) { document.write("<font class='links4'>"); }
+								  else { document.write("<font class='links1'>"); }
+								    document.write("Luiz Cláudio");
+								  document.write("</font>");
+								document.write("</td>");
+							  document.write("</tr>");
+							document.write("</table>");
+						  document.write("</td>");
+						document.write("</tr>");
+						document.write("<tr>");
+						  document.write("<td width='7%'></td>");
+						  document.write("<td width='43%'></td>");
+						  document.write("<td width='43%'></td>");
+						  document.write("<td width='7%'></td>");
+						document.write("</tr>");
+					  document.write("</table>");
+				FechaLinha();
+
+
+				  document.write("<tr height='100%'><td background='gifs/amostraforte" + cor + ".gif'></td><td></td><td><img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'></td></tr>");
+
+			document.write("</table>");
+		  document.write("</td>");
+		document.write("</tr>");
+      document.write("</table>");
+	};
+	function AbreLinha()
+	{
+	  document.write("<tr>");
+	    document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+		    document.write("<tr>");
+			  document.write("<td>");
+	};
+	function FechaLinha()
+	{
+	          document.write("</td>");
+	        document.write("</tr>");
+	      document.write("</table>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+		document.write("</td>");
+	  document.write("</tr>");
+	};
+	function QualquerUm(texto,imagem,alternate)
+	{
+						document.write("<tr>");
+						  if (imagem!="") {
+						    document.write("<td>");
+							  document.write("<img src='" + imagem + "' alt='" + alternate + "' width='30' height='30'>");
+							document.write("</td>");
+							document.write("<td align='center' colspan='2'>");
+							  document.write("<font class='links4'>");
+							    document.write("" + texto + "");
+							  document.write("</font>");
+							document.write("</td>");
+							document.write("<td>");
+							  document.write("<img src='" + imagem + "' alt='" + alternate + "' width='30' height='30'>");
+							document.write("</td>");
+						  }
+						  else {
+						    document.write("<td align='center' colspan='4'>");
+						      document.write("<font class='links4'>");
+							    document.write("" + texto + "");
+							  document.write("</font>");
+					        document.write("</td>");
+						};
+						document.write("</tr>");
+	};
+	</script>
+	<div style="height: 100%">
+	<script>Conteudo();</script>
+	</div>
+	</td>
+    <td width=155 height="100%" valign="top">
+      <!--#include virtual="rightbranco.htm" -->
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

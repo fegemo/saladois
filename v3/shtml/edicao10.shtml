@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>:: SalaDois :: "A Sala que fez história e virou lenda..."</title>
+<link rel="stylesheet" href="csss/links.css" type="text/css">
+<link rel="stylesheet" href="csss/jornal.css" type="text/css">
+<link rel="SHORTCUT ICON" href="sd.ico">
+<script src="scripts/troca-cor.js"></script>
+<script src="scripts/enviar-bug.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#000000">
+<table width="779" border="0" cellspacing="0" cellpadding="0" align="left" height="100%">
+  <tr>
+    <td colspan="3" height="56">
+      <!--#include virtual="title.htm" -->
+    </td>
+  </tr>
+  <tr height="100%">
+    <td width=88 valign="top" height="100%">
+      <!--#include virtual="menu.htm" -->
+    </td>
+    <td width=536 height="100%" valign="top">
+      <script>
+	function Conteudo()
+	{
+	  document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+	    document.write("<tr>");
+		  document.write("<td valign='top' align='left'>");
+	        document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+			  document.write("<tr>");
+			    document.write("<td width='67' height='28'>");
+			      document.write("<img src='gifs/topbar" + cor + ".gif' width='67' height='28'>");
+			    document.write("</td>");
+			    document.write("<td width='383' height='28' background='gifs/amostraforte" + cor + ".gif'>");
+			      document.write("<center><font size='3' face='Verdana' color='#FFFFFF'><b>:: SalaDois ::</b></font></center>");
+			    document.write("</td>");
+			    document.write("<td width='46' height='28'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='28'>");
+			    document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td colspan='2' background='gifs/amostraforte" + cor + ".gif' height='46'>");
+				document.write("</td>");
+				document.write("<td height='46' width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td width='67' background='gifs/amostraforte" + cor + ".gif'>");
+				document.write("</td>");
+				document.write("<td width='383'>");
+				  document.write("<font size='2' color='#000000' face='Verdana'><b>.:Jornal</b></font>");
+				  document.write("<br><br>");
+				document.write("</td>");
+				document.write("<td width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+
+			    AbreLinha();
+				  document.write("<font class='links4'>");
+				    document.write("<center>Edição de número 10: 25/11 a 01/12 do ano de 2001</center>");
+					document.write("<br>");
+				  document.write("</font>");
+				FechaLinha();
+
+			    AbreLinha();
+				document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+			      AbreLinhaM();
+				      Noticia("A Sala se empolga ao receber a camisa de formatura II e começa a achar várias outras utilidades para ela, tais como: pular em cima, arremessar na cabeça da Yara, etc...","1");
+					  Noticia("Professora de espanhol do nivel básico diz que seus alunos confundem limites com liberdade e pergunta se suas mães não os ensinaram a diferança. Um aluno inocente pergunta se ela havia ensinado isso ao Fernando","2");
+					  Noticia("As camisas de formatura versão II finalmente ficaram prontas e a melhora em sua qualidade é realmente questionável. Era para melhorar ou piorar a camisa???","3");
+				  FechaLinhaM();
+			      AbreLinhaM();
+				      Noticia("Pasta do professor Paulão foi um tremendo desastre, apesar de todo o estudo","4");
+					  Noticia("Estamos em véspera de formatura e a comissão está se apressando com os últimos detalhes","1");
+					  Noticia("Em sua penúltima aula, Maria Helena quase manda para a Andréia um de nossos queridos colegas","2");
+				  FechaLinhaM();
+			      AbreLinhaM();
+				      Noticia("Depois do trabalho do nosso querido professor de geografia Luiz Cláudio, podemos perceber que os filhos são a cara dos pais, realmente, né Fernando?","3");
+					  Noticia("Natalino conseguiu dar 4 aulas no ano. Será que ele vai conseguir seu objetivo de 5 aulas até o final do ano? É uma meta bastante ambiciosa","4");
+				      Noticia("Foi descoberto que nosso colega Luiz OC gosta da banda Linkin Park, o que foi bastante questionado. Aqui vão alguns comentários: <i>\"De forró pra New Metal é um avanço\"</i> e <i>\"Será que essa banda tá na moda?\"</i>","1");
+				  FechaLinhaM();
+				document.write("</table>");
+				FechaLinha();
+
+				AbreLinha();
+				  document.write("<br><br>");
+				  document.write("<center>");
+					document.write("<a href='jornal.html' class='links4' OnMouseOver='this.className=\"muda" + cor + "\";' OnMouseOut='this.className=\"links4\";'>");
+				    document.write("Voltar");
+				    document.write("</a>");
+				  document.write("</center>");
+				FechaLinha();
+
+				  document.write("<tr height='100%'><td background='gifs/amostraforte" + cor + ".gif'></td><td></td><td><img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'></td></tr>");
+
+			document.write("</table>");
+		  document.write("</td>");
+		document.write("</tr>");
+      document.write("</table>");
+	}
+	function AbreLinha()
+	{
+	  document.write("<tr>");
+	    document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+		    document.write("<tr>");
+			  document.write("<td>");
+	}
+	function FechaLinha()
+	{
+	          document.write("</td>");
+	        document.write("</tr>");
+	      document.write("</table>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+		document.write("</td>");
+	  document.write("</tr>") ;
+	}
+	function AbreLinhaM()
+	{
+	  document.write("<tr>");
+	}
+	function FechaLinhaM()
+	{
+	  document.write("</tr>");
+	}
+	function Noticia(texto,outracor)
+	{
+	              document.write("<td align='left' valign='top'>");
+				    document.write("<font class='coroutra" + outracor + "'>");
+					  document.write("<img src='gifs\\bola" + cor + ".gif' width='8' height='8'>");
+					  document.write("<b> " + texto + "</b>");
+					document.write("</font>");
+				  document.write("</td>");
+	}
+	</script>
+	<div style="height: 100%">
+	<script>Conteudo();</script>
+	</div>
+	</td>
+    <td width=155 height="100%" valign="top">
+      <!--#include virtual="rightbranco.htm" -->
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

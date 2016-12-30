@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>:: SalaDois :: "A Sala que fez história e virou lenda..."</title>
+<link rel="stylesheet" href="csss/links.css" type="text/css">
+<link rel="SHORTCUT ICON" href="sd.ico">
+<script src="scripts/troca-cor.js"></script>
+<script src="scripts/enviar-bug.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#000000">
+<table width="779" border="0" cellspacing="0" cellpadding="0" align="left" height="100%">
+  <tr>
+    <td colspan="3" height="56">
+      <!--#include virtual="title.htm" -->
+    </td>
+  </tr>
+  <tr height="100%">
+    <td width=88 valign="top" height="100%">
+      <!--#include virtual="menu.htm" -->
+    </td>
+    <td width=536 height="100%" valign="top">
+      <script>
+	function Conteudo()
+	{
+	  document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+	    document.write("<tr>");
+		  document.write("<td valign='top' align='left'>");
+	        document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+			  document.write("<tr>");
+			    document.write("<td width='67' height='28'>");
+			      document.write("<img src='gifs/topbar" + cor + ".gif' width='67' height='28'>");
+			    document.write("</td>");
+			    document.write("<td width='383' height='28' background='gifs/amostraforte" + cor + ".gif'>");
+			      document.write("<center><font size='3' face='Verdana' color='#FFFFFF'><b>:: SalaDois ::</b></font></center>");
+			    document.write("</td>");
+			    document.write("<td width='46' height='28'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='28'>");
+			    document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td colspan='2' background='gifs/amostraforte" + cor + ".gif' height='46'>");
+				document.write("</td>");
+				document.write("<td height='46' width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td width='67' background='gifs/amostraforte" + cor + ".gif'>");
+				document.write("</td>");
+				document.write("<td width='383'>");
+				  document.write("<font size='2' color='#000000' face='Verdana'><b>.:Tutoriais</b></font>");
+				  document.write("<br><br>");
+				document.write("</td>");
+				document.write("<td width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+
+			    AbreLinha();
+				  document.write("<td>");
+				  document.write("<table width='100%' cellpadding='0' cellspacing='1'>");
+				    Cabecalho();
+					Tutorial("emails.zip","Como colocar um e-mail feito no Browser (Internet Explorer ou Netscape) no Outlook Express","E-mail");
+					Tutorial("mascaras.zip","Como criar um item para tirar e colocar máscaras nos personagens","RPG Maker 2000<br>(intermediário)");
+					Tutorial("minigames.zip","Como criar mini-games usando a interface do RPG Maker 2000","RPG Maker 2000<br>(intermediário)");
+				  document.write("</table>");
+				  document.write("</td>");
+				FechaLinha();
+	  			document.write("<tr>");
+	    		  document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+				  document.write("</td>");
+				  document.write("<td>");
+		  			document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+					  document.write("<tr>");
+					    document.write("<td>");
+					      document.write("<br><font face='Verdana' size=1 color='#000000'><p align='center'>Se você está com alguma dúvida com seu computador do tipo não sabe fechar uma janela do windows ou não consegue encontrar um arquivo perdido e até mesmo quer esconder alguma coisa do seu irmão mais novo, mande um E-mail para <a href='mailto:saladois@ieg.com.br' class='muda" + cor + "' OnMouseOver='this.className=\"links4\"' OnMouseOut='this.className=\"muda" + cor + "\"'>saladois@ieg.com.br</a> e nós garantimos que retornaremos um tutorial pra você em no máximo 24 horas (mentira, mas a gente manda)</p></font>");
+					    document.write("</td>");
+					  document.write("</tr>");
+				FechaLinha();
+
+				  document.write("<tr height='100%'><td background='gifs/amostraforte" + cor + ".gif'></td><td></td><td><img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'></td></tr>");
+
+			document.write("</table>");
+		  document.write("</td>");
+		document.write("</tr>");
+      document.write("</table>");
+	};
+	function AbreLinha()
+	{
+	  document.write("<tr>");
+	    document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+		    document.write("<tr bgcolor='#FFFFFF'>");
+	};
+	function FechaLinha()
+	{
+	        document.write("</tr>");
+	      document.write("</table>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+		document.write("</td>");
+	  document.write("</tr>") ;
+	};
+	function Cabecalho()
+	{
+	                document.write("<tr class='" + clsmenuout + "'>");
+					  document.write("<td align='center'>");
+					    document.write("<font size='1' color='#000000' face='Verdana'><b>");
+						  document.write("Arquivo");
+						document.write("</b></font>");
+					  document.write("</td>");
+					  document.write("<td align='center'>");
+					    document.write("<font size='1' color='#000000' face='Verdana'><b>");
+						  document.write("Descrição");
+						document.write("</b></font>");
+					  document.write("</td>");
+					  document.write("<td align='center'>");
+						document.write("<font size='1' color='#000000' face='Verdana'><b>");
+						  document.write("Categoria");
+						document.write("</b></font>");
+				      document.write("</td>");
+					document.write("</tr>");
+	};
+	function Tutorial(arquivo,descricao,categoria)
+	{
+	                document.write("<tr class='" + clsmenuin + "'>");
+					  document.write("<td align='center'>");
+					    document.write("<a href='tutoriais\\" + arquivo + "' class='links4' OnMouseOver='this.className=\"" + "muda" + cor + "\";' OnMouseOut='this.className=\"links4\";'>" + arquivo + "</a>");
+					  document.write("</td>");
+					  document.write("<td align='center'>");
+					    document.write("<font class='muda" + cor + "'>");
+						  document.write("" + descricao + "");
+						document.write("</font>");
+					  document.write("</td>");
+					  document.write("<td align='center'>");
+					    document.write("<font size='1' color='#000000' face='Verdana'>");
+						  document.write("" + categoria + "");
+						document.write("</font>");
+					  document.write("</td>");
+					document.write("</tr>");
+	};
+	</script>
+	<div style="height: 100%">
+	<script>Conteudo();</script>
+	</div>
+	</td>
+    <td width=155 height="100%" valign="top">
+      <!--#include virtual="rightbranco.htm" -->
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
+<html></html>

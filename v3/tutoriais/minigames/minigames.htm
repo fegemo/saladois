@@ -1,0 +1,197 @@
+<html>
+<head>
+<title>Tutorial Mini-Games</title>
+<style>
+a: link      { text-decoration: none; color: #0EFFA0 }
+a: hover     { text-decoration: none; color: #0EFFFF }
+</style>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+</head>
+<body background="backgreen.gif" bgproperties="fixed" topmargin=0 leftmargin=0>
+
+<table width="759" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#000000" colspan="7" width="751">
+      <p align="center"><b><font face="Verdana" color="#FFFFFF" size="1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &gt;&gt;</font><font face="Verdana" size="1" color="#00A600">RPG
+      Maker 2000</font><font face="Verdana" color="#FFFFFF" size="1"> &lt;&lt;</font></b></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="120"><a href="http://www.saladois.hpg.com.br/"><img border="0" src="logo.gif" width="120" height="20"></a></td>
+    <td width="20"><img border="0" src="inter.gif" width="20" height="20"></td>
+    <td bgcolor="#000000" width="30%"></td>
+    <td width="20"><img border="0" src="left.gif" width="20" height="20"></td>
+    <td width="100%"></td>
+    <td width="20"><img border="0" src="right.gif" width="20" height="20"></td>
+    <td width="30%" bgcolor="#000000">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="120" bgcolor="#000000">
+  &nbsp;
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;
+    <td width="629" colspan="6">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+        <tr>
+          <td height="20" width="20"><img border="0" src="left.gif" width="20" height="20"></td>
+          <td height="20" width="100%"></td>
+        </tr>
+        <tr>
+          <td height="100%" colspan="2">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td width="153" bgcolor="#000000"><b><font size="2" face="Verdana" color="#00A600">&gt;&gt;&gt;Mini-Games</font></b></td>
+                <td width="462"></td>
+              </tr>
+              <tr>
+                <td width="621" colspan="2" height="20"><img border="0" src="left.gif" width="20" height="20"></td>
+              </tr>
+              <tr>
+                <td width="621" bgcolor="#000000" colspan="2"><b><font face="Verdana" size="1" color="#FFFFFF">Como
+                  fazer um mini-games usando a interface do RPG Maker 2000:</font></b></td>
+              </tr>
+              <tr>
+                <td width="621" bgcolor="#000000" colspan="2"></td>
+              </tr>
+              <tr>
+                <td width="621" bgcolor="#000000" colspan="2"><b><font face="Verdana" size="1" color="#FFFFFF">Tutorial feito por Hitchhiker --- traduzido e adaptado para o indioma português por RAJADA ---<br>
+                  <br>
+                  Sumário<br>
+                  <br>
+                  (1) a) Item repelente de inimigos<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Moogle Charm Relic ( se você jogou final fantasy VI vai saber oque é isso)<br>
+                  (2) Sistema de radar<br>
+                  (3) Commando pulo<br>
+                  (4) Mini game Snowboarding<br>
+                  <br>
+                  (1a) Item repelente de inimigos (Testado e aprovado por Z@ndor)<br>
+                  <br>
+                  Esse tutorial é para se criar um Item repelente de inimigos. Primeiro, crie um item chamado "REPELENTE(ou qualquer outro nome que dejesar)" esse item tem que ser um item switch. deixe em on o switch "repelente" (OBS: você tem que criar o switch "repelente").  Vá em common event no Data Base e crie um evento de parallel process e com a condição de switch "repelente".  Agora nos comandos, coloque um CHANGE ENCONTER RATE. Para não aparecer nenhum mostro coloque em 0 passos(steps).  Para aumentar a chance, coloque um número maior. Agora coloque um commando WAIT,  depois coloque outro CHANGE ENCONTER RATE e coloque o número que estava antes.  Então coloque um CHANGE SWITCH deixando o switch "repelente" no OFF. Veja como ficará:<br>
+                  <br>
+                  &lt;></font><font face="Verdana" size="1" color="#00A600">Encounter Rate:  0St
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;></font><font face="Verdana" size="1" color="#00A600">Wait:
+                  10.0s</font><font face="Verdana" size="1" color="#FFFFFF">
+                  ***Nota: esse número é o tempo de duração do item, e pode ser mudado***<br>
+                  &lt;></font><font face="Verdana" size="1" color="#00A600">Encounter Rate:  25St
+                  </font><font face="Verdana" size="1" color="#FFFFFF">   ***Nota: esse número pode ser mudado se o enconter rate do seu jogo for diferente***<br>
+                  &lt;></font><font face="Verdana" size="1" color="#00A600">Change Switch:  [0001:repelente]-OFF Set
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;><br>
+                  <br>
+ (1b) Moogle Charm Relic ( se você jogou final fantasy VI vai saber oque é isso)(Não testado por Z@ndor)<br>
+                  <br>
+                  Isso irá fazer a mesma coisa que o Moogle Charm faz em FF6. Caso você nunca tenha jogado FF6, isso irá fazer quando você estiver equipado com ele, não ter batalhas aleatórias. Crie um item chamado "Moogle Charm" faça-o como um item "other". Agora, crie um evento comun de parallel process. Crie uma FORK CONDITION. deixe a caixa no final da janela marcada. Deixe seleciona em "hero".  agora clique em "..." selecione "item", e coloque o item que você quer. Crie um ENCOUNTER RATE e coloque zero.  Agora, depois do excepting case, Crie um ENCOUNTER RATE e coloque no que estava antes.<br>
+                  <br>
+                  &lt;></font><font face="Verdana" size="1" color="#00A600">Fork Option:Hero- Moogle Charm Equipment
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+   &lt;></font><font face="Verdana" size="1" color="#00A600">Encounter Rate:   0St.
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+   &lt;><br>
+                  </font><font face="Verdana" size="1" color="#00A600">:Excepting Case
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+   &lt;></font><font face="Verdana" size="1" color="#00A600">Encounter Rate:   25St.
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+   &lt;><br>
+                  </font><font face="Verdana" size="1" color="#00A600">:End Case</font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;><br>
+                  <br>
+                  <br>
+                  (2) Sistema de radar (Não testado opor Z@ndor)<br>
+                  <br>
+                  Isso é muito fácil e pode ser facilmente improvisado. Isso faz uma pulsação na tela entre todo preto, e uma tinta verde. O radar vai acionar quando você apertar o botão de cancelar. Primeiro, crie um evento de parallel process e faça um SET SCREEN TONE e deixe como está (o normal do jogo).<br>
+                  <br>
+                  &lt;>Set Screen Tone:(R100, G100, B100, S100),1.0sec(W)<br>
+                  &lt;><br>
+                  <br>
+                  Agora, você tem que criar um evento que acione o comando com o botão de cancelar. faça como parallel
+                  process. Crie um PASSWORD, deixe somente marcado o quadrado de cancel botton. agora embaixo disso&nbsp;<br>
+                  <br>
+                  &lt;></font><font face="Verdana" size="1" color="#00A600">Enter Password:  [####:radar]
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;></font><font face="Verdana" size="1" color="#00A600">Change Switch:   [####:radar]-ON/OFF Triger
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;><br>
+                  <br>
+                  Crie um evento de parallel process. E desabilite o menu com o comando DISABLE MENU<br>
+                  <br>
+                  &lt;></font><font face="Verdana" size="1" color="#00A600">Disable System Menu:   Disable
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;><br>
+                  <br>
+                  Agora crie outro evento de parallel process, e coloque as condições para o switch "radar". Nos comandos crie um SET SCREEN TONE e deixe todo negro. Entào crie um WAIT de 0.7 segundos. Depois crie um outro SET SCREEN TONE e deixe com a tinta verde. Agora crie outro WAIT para 0.5 segundos.<br>
+                  <br>
+                  &lt;&gt;</font><font face="Verdana" size="1" color="#00A600">Set Screen Tone:(R000,G000,B000,S000),0.7sec(W)</font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;></font><font face="Verdana" size="1" color="#00A600">Wait:   0.7s.</font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;&gt;</font><font face="Verdana" size="1" color="#00A600">Set Screen Tone:(R000,G110,B000,S000),0.7sec(W)</font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;></font><font face="Verdana" size="1" color="#00A600">Wait:   0.5s.
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;><br>
+                  <br>
+                  E isso é tudo.<br>
+                  <br>
+                  <br>
+                  <br>
+                  (3) Comando de pular (Não testado por Z@ndor)<br>
+                  <br>
+                  <br>
+                  Esse comando fazerá seu personagen pular. Crie um evento de parallel process. Crie um password e deixe somente marcado o quadrado do botão cancel, Então crie um MOVE EVENT do heroi. Então coloque esses movimentos -->  start Jump, move forward, move forward, end jump.  Pronto!!!!<br>
+                  <br>
+                  &lt;></font><font face="Verdana" size="1" color="#00A600">Enter Password: [####:pular]
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;&gt;</font><font face="Verdana" size="1" color="#00A600">Set Chara's Movement:  Hero  , Start Jump  , Forward  , Forward  , End Jump
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;><br>
+                  <br>
+                  Simples!!!<br>
+                  <br>
+                  <br>
+                  <br>
+                  (4) Mini game de Snowboarding!!! (Não testado por Z@ndor)<br>
+                  <br>
+                  <br>
+                  Isso é muito fácil. basta criar um evento de parallel process, Depois crie um MOVE EVENT para o heroi e coloque o movimento "step down" (passo para baixo), depois crie um evento WAIT e deixe em 0.2 segundos. Isso é realmente fácil<br>
+                  <br>
+                  &lt;&gt;</font><font face="Verdana" size="1" color="#00A600">Set Chara's Movement:   Hero  , Down
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;></font><font face="Verdana" size="1" color="#00A600">Wait:   0.2s.
+                  </font><font face="Verdana" size="1" color="#FFFFFF"><br>
+                  &lt;><br>
+                  <br>
+                  Isso vai fazer com que o heroi mova continuamente para baixo, mas permitindo que você o mexa para os lados. Crie um Chara para esse esporte, é fácil é só desnhar um shape grande (no caso o snowboard) nos pés do personagem. Você pode também criar passwords para fazer o heroi mandar manobras e outras coisas.&nbsp;<br>
+                  <br>
+                  NOTA DO AUTOR:  Muito bem isso é tudo. Eu tentei explicar algumas coisas novas para por em seu jogo. Eu não sou muito bom em explicar coisas, Se precisar de alguma outra coisa, mande um e-mail para
+                  <a href="mailto:Hitchhiker427@aol.com"> Hitchhiker427@aol.com</a>.  Bom, aproveite.<br>
+                  <br>
+                  <br>
+                  Qualquer problema emtre em contato <a href="mailto:g.gerath@terra.com.br">g.gerath@terra.com.br</a><br>
+                  <br>
+                  Traduzido por Rajada<br>
+                  </font></b></td>
+              </tr>
+              <tr>
+                <td width="621" colspan="2" height="20"><img border="0" src="left.gif" width="20" height="20"></td>
+              </tr>
+            </table>
+            <p>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

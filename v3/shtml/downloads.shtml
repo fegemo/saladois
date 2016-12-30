@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>:: SalaDois :: "A Sala que fez história e virou lenda..."</title>
+<link rel="stylesheet" href="csss/links.css" type="text/css">
+<link rel="SHORTCUT ICON" href="sd.ico">
+<script src="scripts/troca-cor.js"></script>
+<script src="scripts/enviar-bug.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#000000">
+<table width="779" border="0" cellspacing="0" cellpadding="0" align="left" height="100%">
+  <tr>
+    <td colspan="3" height="56">
+      <!--#include virtual="title.htm" -->
+    </td>
+  </tr>
+  <tr height="100%">
+    <td width=88 valign="top" height="100%">
+      <!--#include virtual="menu.htm" -->
+    </td>
+    <td width=536 height="100%" valign="top">
+      <script>
+  function Conteudo()
+  {
+    document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+      document.write("<tr>");
+      document.write("<td valign='top' align='left'>");
+          document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+        document.write("<tr>");
+          document.write("<td width='67' height='28'>");
+            document.write("<img src='gifs/topbar" + cor + ".gif' width='67' height='28'>");
+          document.write("</td>");
+          document.write("<td width='383' height='28' background='gifs/amostraforte" + cor + ".gif'>");
+            document.write("<center><font size='3' face='Verdana' color='#FFFFFF'><b>:: SalaDois ::</b></font></center>");
+          document.write("</td>");
+          document.write("<td width='46' height='28'>");
+          document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='28'>");
+          document.write("</td>");
+        document.write("</tr>");
+        document.write("<tr>");
+          document.write("<td colspan='2' background='gifs/amostraforte" + cor + ".gif' height='46'>");
+        document.write("</td>");
+        document.write("<td height='46' width='46'>");
+          document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+        document.write("</td>");
+        document.write("</tr>");
+        document.write("<tr>");
+          document.write("<td width='67' background='gifs/amostraforte" + cor + ".gif'>");
+        document.write("</td>");
+        document.write("<td width='383'>");
+          document.write("<font size='2' color='#000000' face='Verdana'><b>.:Downloads</b></font>");
+          document.write("<br><br>");
+        document.write("</td>");
+        document.write("<td width='46'>");
+          document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+        document.write("</td>");
+        document.write("</tr>");
+
+          AbreLinha();
+          document.write("<td>");
+          document.write("<table width='100%' cellpadding='0' cellspacing='1'>");
+            Cabecalho();
+          Download("Vídeo <i>à la Leôncio</i>","Cena de vandalismo filmada por um cinegrafista amador que não quer ser identificado","306 Kb","gifs\\iconflash.gif","cineamador.zip");
+          Download("Papel de Parede III","Mais um fundo de tela (800x600)","82 Kb","jpgs\\sdiii.jpg","sdiii.zip");
+          Download("Papel de Parede II","Outro fundo de tela, mas só em 1024x768","85,5 Kb","jpgs\\sdii.jpg","sdii.zip");
+          Download("Papel de Parede","Fundo de tela feito no 3d Max! Uahuahu! Patola!","800x600 - ~950 Kb<br>1024x768 - ~1,52 Mb","jpgs\\sdi" + cor + ".jpg","sdi800x600" + cor + ".zip","sdi1024x768" + cor + ".zip");
+          Download("Always Coca-Cola","Musiquinha hyper patola que a nossa sala é BO","803 Kb","gifs\\iconalways.gif","always.zip");
+          Download("Sheep","Ovelhinha feliz que saltita pela tela do computador","309 Kb","gifs\\sheeprotating.gif","sheep.exe");
+          Download("Apelidos","Animação em flash sobre os apelidos do povo da sala","542 Kb","gifs\\iconflash.gif","apelidos.exe");
+          Download("Jammer 1.2","Programa que protege seu computador contra invasores","1,52 Mb","gifs\\iconjammer.gif","jammer.zip");
+          Download("Swish 1.01","Faz animações de texto em flash com ótimas opções","933 Kb","gifs\\iconswish.gif","swish.zip");
+          Download("Winzip 8.0","Versão 8.0 do mais conhecido compactador de arquivos","1,20 Mb","gifs\\iconwinzip.gif","winzip80.exe");
+            Download("Bill Clinton","Videozinho MPG muito bom sobre as falcatruas sexuais do ex-presidente norte-americano<br>(meninas, tampem os olhos!)","3,212 Mb","gifs\\int.gif","billclinton.zip");
+          Download("Fight III","Um flash muiiiiito bem feito que estrela um daqueles bonequinhos de pauzinho rolando o espanco geral! Vale a pena!<br><a href='downloads\\fight3.htm' class='links4' OnMouseOver='this.className=\"muda" + cor + "\";' OnMouseOut='this.className=\"links4\";'>Visualização pela Internet</a>","1,66 Mb","gifs\\iconflash.gif","fight3.exe");
+            Download("Skin Winamp SalaDois","Um skin* patola para deixar seu programa de MP3 com a cara da SalaDois<br><i>* = muda o estilo de algum programa</i>","45 Kb","gifs\\iconwinamp.gif","saladois.zip");
+            Download("Cerimonial","O arquivo (Word) que foi feito dando uma breve descrição sobre cada indivíduo SalaDoisiano para a formatura","3,93 Kb","gifs\\iconword.gif","cerimonial.zip");
+          document.write("</table>");
+          document.write("</td>");
+        FechaLinha();
+
+
+          document.write("<tr height='100%'><td background='gifs/amostraforte" + cor + ".gif'></td><td></td><td><img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'></td></tr>");
+
+      document.write("</table>");
+      document.write("</td>");
+    document.write("</tr>");
+      document.write("</table>");
+  };
+  function AbreLinha()
+  {
+    document.write("<tr>");
+      document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+    document.write("</td>");
+    document.write("<td>");
+      document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+        document.write("<tr bgcolor='#FFFFFF'>");
+  };
+  function FechaLinha()
+  {
+          document.write("</tr>");
+        document.write("</table>");
+    document.write("</td>");
+    document.write("<td>");
+      document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+    document.write("</td>");
+    document.write("</tr>") ;
+  };
+  function Cabecalho()
+  {
+                  document.write("<tr class='" + clsmenuout + "'>");
+            document.write("<td align='center'>");
+              document.write("<font size='1' color='#000000' face='Verdana'><b>");
+              document.write("Nome");
+            document.write("</b></font>");
+            document.write("</td>");
+            document.write("<td align='center'>");
+            document.write("<font size='1' color='#000000' face='Verdana'><b>");
+              document.write("Descrição");
+            document.write("</b></font>");
+              document.write("</td>");
+            document.write("<td align='center'>");
+              document.write("<font size='1' color='#000000' face='Verdana'><b>");
+              document.write("Tamanho");
+            document.write("</b></font>");
+            document.write("</td>");
+            document.write("<td align='center'>")
+              document.write("<font size='1' color='#000000' face='Verdana'><b>");
+              document.write("Screenshot (Cena)");
+            document.write("</b></font>");
+            document.write("</td>");
+            document.write("<td align='center'>");
+              document.write("<font size='1' color='#000000' face='Verdana'><b>");
+              document.write("Arquivo");
+            document.write("</b></font>");
+            document.write("</td>");
+          document.write("</tr>");
+  };
+  function Download(nome,descricao,tamanho,screenshot,arquivo,arquivodois)
+  {
+                  document.write("<tr class='" + clsmenuin + "'>");
+            document.write("<td align='center'>");
+              document.write("<font class='muda" + cor + "'>");
+              document.write("" + nome + "");
+            document.write("</font>");
+            document.write("</td>");
+            document.write("<td align='center'>");
+              document.write("<font size='1' color='#000000' face='Verdana'>");
+              document.write("" + descricao + "");
+            document.write("</font>");
+            document.write("</td>");
+            document.write("<td align='center'>");
+              document.write("<font size='1' color='#000000' face='Verdana'>");
+              document.write("" + tamanho + "");
+            document.write("</font>");
+            document.write("</td>");
+            document.write("<td align='center'>");
+              if (!arquivodois=="") { document.write("<img src='" + screenshot + "' alt='Cena do papel de parede " + nome + "' width='72' height='50'>"); }
+            else { document.write("<img src='" + screenshot + "' alt='Cena do aplicativo " + nome + "'>"); }
+            document.write("</td>");
+            document.write("<td align='center'>");
+              document.write("<a href='downloads\\" + arquivo + "' class='links4' OnMouseOver='this.className=\"" + "muda" + cor + "\";' OnMouseOut='this.className=\"links4\";'>" + arquivo + "</a>");
+              if (!arquivodois=="") { document.write("<br><font class='muda" + cor + "'>ou</font><br><a href='downloads\\" + arquivodois + "' class='links4' OnMouseOver='this.className=\"" + "muda" + cor + "\";' OnMouseOut='this.className=\"links4\";'>" + arquivodois + "</a>"); }
+            document.write("</td>");
+          document.write("</tr>");
+  };
+  </script>
+  <div style="height: 100%">
+  <script>Conteudo();</script>
+  </div>
+  </td>
+    <td width=155 height="100%" valign="top">
+      <!--#include virtual="rightbranco.htm" -->
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

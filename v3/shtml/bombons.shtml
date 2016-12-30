@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>:: SalaDois :: "A Sala que fez história e virou lenda..."</title>
+<link rel="stylesheet" href="csss/links.css" type="text/css">
+<link rel="SHORTCUT ICON" href="sd.ico">
+<script src="scripts/troca-cor.js"></script>
+<script src="scripts/enviar-bug.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#000000">
+<table width="779" border="0" cellspacing="0" cellpadding="0" align="left" height="100%">
+  <tr>
+    <td colspan="3" height="56">
+      <!--#include virtual="title.htm" -->
+    </td>
+  </tr>
+  <tr height="100%">
+    <td width=88 valign="top" height="100%">
+      <!--#include virtual="menu.htm" -->
+    </td>
+    <td width=536 height="100%" valign="top">
+      <script>
+	function Conteudo()
+	{
+	  document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+	    document.write("<tr>");
+		  document.write("<td valign='top' align='left'>");
+	        document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+			  document.write("<tr>");
+			    document.write("<td width='67' height='28'>");
+			      document.write("<img src='gifs/topbar" + cor + ".gif' width='67' height='28'>");
+			    document.write("</td>");
+			    document.write("<td width='383' height='28' background='gifs/amostraforte" + cor + ".gif'>");
+			      document.write("<center><font size='3' face='Verdana' color='#FFFFFF'><b>:: SalaDois ::</b></font></center>")
+			    document.write("</td>");
+			    document.write("<td width='46' height='28'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='28'>");
+			    document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td colspan='2' background='gifs/amostraforte" + cor + ".gif' height='46'>");
+				document.write("</td>");
+				document.write("<td height='46' width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+			  document.write("<tr>");
+			    document.write("<td width='67' background='gifs/amostraforte" + cor + ".gif'>");
+				document.write("</td>");
+				document.write("<td width='383'>");
+				  document.write("<font size='2' color='#000000' face='Verdana'><b>.:Bombons</b></font>");
+				  document.write("<br><br>");
+				document.write("</td>");
+				document.write("<td width='46'>");
+				  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+				document.write("</td>");
+			  document.write("</tr>");
+
+			    AbreLinha();
+				  Bombom("Bombom de Nozes","O bombom de nozes tem seu investimento em uma boa causa. Suas nozes são colhidas pelos esquilos deficientes visuais residentes nos mais altos galhos dos pinheiros de Araucária do norte da Argentina. Compre um bombom e ajude um esquilo cego!","Caio, Thiago e Flávio");
+				  Bombom("Bombom de Morango","Os morangos que compõem este bombom são adubados com as fezes das minhocas vietnamitas gigantes e radioativas comedoras de jujuba colorida que são criadas nos buracos que serviram de trincheiras na Guerra do Golfo quando Napoleão invadiu a Rússia na batalha de Waterloo.","Flávio, Leôncio e Caio");
+				FechaLinha();
+				AbreLinha();
+				  Bombom("Bombom Crocante","Na verdade aquelas bolinhas encontradas em cima do bombom propriamente dito não são crocantes. Há estudiosos que dizem que são apenas bolinhas que a gente coloca no sorvete self-service, mas há também quem diz que são autoformas geóide expelidas pela cloaca de seres quirópteros, ou mais especificamente os que habitam as cavernas secretas das Cordilheira dos Andes, que são denominadas bolas de guano de morcego.","Flávio");
+			      Bombom("Bombom de Ameixa","Primeiramente, se você nã gosta de ameixa, o bombom não é de ameixa. Em segundo lugar, suas ameixas foram trazidas pelas vias de um buraco negro em um lugar muito distante no universo e elas são dissecadas pelos motores das naves espaciais de Roswell que caíram na floresta encantada de Igarapé.","Leôncio, Flávio e Caio");
+				FechaLinha();
+
+
+				  document.write("<tr height='100%'><td background='gifs/amostraforte" + cor + ".gif'></td><td></td><td><img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'></td></tr>");
+
+			document.write("</table>");
+		  document.write("</td>");
+		document.write("</tr>");
+      document.write("</table>");
+	};
+	function AbreLinha()
+	{
+	  document.write("<tr>");
+	    document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<table width='100%' cellpadding='0' cellspacing='2'>");
+		    document.write("<tr>");
+	};
+	function FechaLinha()
+	{
+	        document.write("</tr>");
+	      document.write("</table>");
+		document.write("</td>");
+		document.write("<td>");
+		  document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+		document.write("</td>");
+	  document.write("</tr>");
+	};
+	function Bombom(nome,historia,colaboradores)
+	{
+              document.write("<td width='50%' height='100%'>");
+			    document.write("<table width='100%' height='100%' cellpadding='0' cellspacing='1'>");
+			      document.write("<tr bgcolor='#FFFFFF'>");
+				    document.write("<td width='100%'>");
+					  document.write("<font class='muda" + cor + "'>");
+					    document.write("" + nome + "");
+					  document.write("</font>");
+					document.write("</td>");
+				  document.write("</tr>");
+				  document.write("<tr bgcolor='#FFFFFF' height='100%'>");
+					document.write("<td height='100%' width='100%' valign='top'>");
+					  document.write("<font size='1' color='#000000' face='Verdana'>");
+					    document.write("<p align='justify'>" + historia + "</p>");
+					  document.write("</font>");
+					document.write("</td>");
+				  document.write("</tr>");
+				  document.write("<tr bgcolor='#FFFFFF'>");
+					document.write("<td width='100%'>");
+				      document.write("<font size='1' color='#000000' face='Verdana'>");
+						document.write("<p align='right'>De ");
+ 			          document.write("</font>");
+					  document.write("<font class='muda" + cor + "'>");
+					    document.write("" + colaboradores + "</p>");
+					  document.write("</font>");
+					document.write("</td>");
+			      document.write("</tr>");
+				document.write("</table>");
+			  document.write("</td>");
+	};
+	</script>
+	<div style="height: 100%">
+	<script>Conteudo();</script>
+	</div>
+	</td>
+    <td width=155 height="100%" valign="top">
+      <!--#include virtual="rightbranco.htm" -->
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

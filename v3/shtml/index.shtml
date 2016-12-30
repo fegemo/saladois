@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>:: SalaDois :: "A Sala que fez história e virou lenda..."</title>
+<link rel="stylesheet" href="csss/links.css" type="text/css">
+<link rel="SHORTCUT ICON" href="sd.ico">
+<script src="scripts/troca-cor.js"></script>
+<script src="scripts/enviar-bug.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" text="#000000">
+<table width="779" border="0" cellspacing="0" cellpadding="0" align="left" height="100%">
+  <tr>
+    <td colspan="3" height="56">
+      <!--#include virtual="title.htm" -->
+    </td>
+  </tr>
+  <tr height="100%">
+    <td width=88 valign="top" height="100%">
+      <!--#include virtual="menu.htm" -->
+    </td>
+    <td width=536 height="100%" valign="top">
+      <script>
+  function Conteudo()
+  {
+    document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+      document.write("<tr>");
+      document.write("<td valign='top' align='left'>");
+          document.write("<table cellpadding='0' cellspacing='0' width='496' height='100%'>");
+        document.write("<tr>");
+          document.write("<td width='67' height='28'>");
+            document.write("<img src='gifs/topbar" + cor + ".gif' width='67' height='28'>");
+          document.write("</td>");
+          document.write("<td width='383' height='28' background='gifs/amostraforte" + cor + ".gif'>");
+            document.write("<center><font size='3' face='Verdana' color='#FFFFFF'><b>:: SalaDois ::</b></font></center>");
+          document.write("</td>");
+          document.write("<td width='46' height='28'>");
+          document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='28'>");
+          document.write("</td>");
+        document.write("</tr>");
+        document.write("<tr>");
+          document.write("<td colspan='2' background='gifs/amostraforte" + cor + ".gif' height='46'>");
+        document.write("</td>");
+        document.write("<td height='46' width='46'>");
+          document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+        document.write("</td>");
+        document.write("</tr>");
+        document.write("<tr>");
+          document.write("<td width='67' background='gifs/amostraforte" + cor + ".gif'>");
+        document.write("</td>");
+        document.write("<td width='383'>");
+          document.write("<font size='2' color='#000000' face='Verdana'><b>.:Novidades</b></font>");
+        document.write("</td>");
+        document.write("<td width='46'>");
+          document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+        document.write("</td>");
+        document.write("</tr>");
+
+        AbreLinha();
+            Novidade("Darunia","17/11/<font face='Verdana' size=1 color='#000000'>2002</font>","Atualização? Que é isso? SalaDois? Hã? Ênia? Tênia? Ênis? Salmão? Salomão? Hehehehehehehe.... sempre tem que terminar no Salomão :)<br><br>Pois é, estamos aí, quase no final do ano, já na quarta etapa e estamos colocando mais um jornal no site. A parte de professores foi atualizada (com a ajuda da nossa colega Aurélia :). Leandro e Luciana também ajudaram na atualização. Estamos programando o <b>Acampamento SD II</b>, para o início de Janeiro. Já está quase saindo, vão guardando dinheiro. Vou ver se continuo atualizando o site até o final do ano, então não deixem de visitar. E não esqueçam de dar uma passadinha no fórum!<br><br>PS: os menus que estão em <font class='muda" + cor + "'>cor diferente</font> de preto estão atualizados, então visitem-os!","AH NÃO!!!")
+        FechaLinha();
+        AbreLinha();
+            Novidade("Darunia","16/06/<font face='Verdana' size=1 color='#000000'>2002</font>","Ufa! Até que enfim tamos aí de volta, trazendo as fotos que tanto prometemos. Estamos para reformular o site inteiro, por isso as atualizações estão atrasadas. Colocamos também uma nova edição de jornal. Na próxima atualização, colocaremos o vídeo do nosso querido professor Odilon cantando a musiquinha da pulga em Alemão. Valeu!","Fotos!!!");
+        FechaLinha();
+        AbreLinha();
+            Novidade("Darunia","13/02/<font face='Verdana' size=1 color='#000000'>2002</font>","Yep! Acampamos dia 11/02 e 12/02 e foi uma beleza! Acrescentamos o site com uma edição do jornal (Edição de Acampamento) e, até que enfim, consegui localizar o erro que fazia com que não rodasse a parte de icqs, e-mails, tutoriais e downloads. Acontece que o problema não estava do lado servidor, e sim do lado cliente, quando o browser do usuário recebia uma ação de request do script em java e continha caracteres não-válidos em servidores de origem Unix. Ou seja, somente troquei \"<i>ç</i>\" por \"<i>c</i>\" nas funções <i>Cabeçalho()</i> das páginas que estavam com problema. Entendeu? Colocaremos também as fotos do Luau em breve.","Acampamento SalaDois");
+        FechaLinha();
+        AbreLinha();
+            Novidade("Darunia","07/02/<font face='Verdana' size=1 color='#000000'>2002</font>","<font class='muda" + cor + "'>É, o receio não foi em vão. Fomos realmente separados e estamos em protesto. Já tentamos algumas estratégias mas ainda não foi o suficiente. Estamos contando com a sua cooperação, nossa querida diretora Andréia. Somos uma união muito unida que vai até fazer um luau na próxima noite de domingo e reuniremo-nos mais uma vez. Esperamos estar juntos de novo o mais cedo possível e nós realmente acreditamos no carisma da nossa diretora. Então é isso aí, estamos esperando resposta. Mas acredite, mesmo em crise, a SalaDois continua!</font>","<font class='links4'>Conspiração</font>");
+        FechaLinha();
+        AbreLinha();
+            Novidade("Darunia","03/02/<font face='Verdana' size=1 color='#000000'>2002</font>","Uahahhahahuahahuhauuu!!! Estamos de volta! Mais um ano feliz e enternecedor que vamos passar juntos! Pois é, como vocês viram, consegui não sair da escola e vou continuar atualizando nossa página do coração. Pena que o Leite não tá mais com a gente, mas ele prometeu que vai estar sempre acompanhando a gente e sendo patola como sempre foi. Além dele, várias pessoas nos deixaram este ano, mas, com certeza, não nos esquecerão e nós não os esqueceremos. Em breve, colocaremos aqui uma lista de novatos e uma lista dos que não estão mais fisicamente com a gente. Então é isso aí!","Estamos de volta!")
+        FechaLinha();
+        AbreLinha();
+            Novidade("Darunia & Mewkid","08/12/2001","Pois é... já passamos de nossa formatura e o fim do ano chegou. Estamos \"fechando\" este site, pois talvez, ano que vem alguns WebMasters não farão mais parte da SalaDois (pelo menos fisicamente), mas esperamos continuar com a união que sempre tivemos. Estamos colocando aki, para finalizar, o cerimonial e o juramento que foram pronunciados na colação de grau.<br>- A partir de agora, o único atualizador que permanecerá trazendo notícia massivamente para a SalaDois é eu, Leôncio.<br>- E eu (Flávio), desejo muita alegria para que vocês possam saltitar o quanto quiserem. <br>- Nossos antigos WebMasters continuarão a nos apoiar porque senão vai rolar o espanco, né Flávio?!<br>- É Leôncio. Nunca deixaremos de fazer parte da SalaDois.","\"Adeus\" (Flávio) e \"beijo na bunda e até segunda!!\" (Leôncio)");
+        FechaLinha();
+        AbreLinha();
+            Novidade("Darunia","02/10/2001","Depois de ter se decepcionado com a queda do número de visitas, parei de atualizar este site. Mas como estamos no final do ano e bem próximo à formatura, decidi dar uma pequena atualizada, acrescentando um jornal e alguns flashes.","Re<font class='links4'>volta</font>");
+        FechaLinha();
+        AbreLinha();
+            Novidade("Darunia","29/10/2001","Bom dia, povo SalaDoisiano! Como prometido, estamos aki, atualizando o nosso querido site com mais um jornal e dois downloads. Colocamos também uma nova votação. Confira! E não esqueça de deixar uma mensagem no fórum!","Atualização");
+        FechaLinha();
+        AbreLinha();
+          Novidade("Darunia","07/09/2001","A SalaDois volta em estilo e muito mais patola! Tomamos vergonha na cara e voltamos a atualizar este site, depois de termos reformulado-o com tecnologias especiais como o uso de matrizes espaciais de vetores isométricos e etc. Estamos fazendo nossa parte, agora também precisamos de ajuda pois precisamos de dinheiro para manter o site hospedado em seu próprio domínio (www.saladois.com.br).<br>Até breve<br>","SalaDois");
+        FechaLinha();
+        AbreLinha();
+          Novidade("Darunia","07/09/2001","Temos atualmente uns 3 ou 4 projetos no qual os huevos estão dentro. Projetos como jogos, aplicativos e inutilidades. Pensamos em colocá-los na Internet, mas demoraria muito para conseguir fazer download. Então, estávamos pensando sobre cobrar R$0,70 (preço total de um CD) para colocar todas as porcarias sobre os huevos e distribuir para quem quizesse. Estamos aguardando a consolidação de pelo menos três jogos para fazê-lo. Esperamos a sua espera.","Los Huevos");
+        FechaLinha();
+
+        AbreLinha();
+            document.write("<br>");
+            document.write("<center>");
+            document.write("<img src='gifs\\iconpasta.gif'>");
+            document.write("<a href='javascript:window.external.AddFavorite(\"http://www.saladois.hpg.com.br/\")' class='muda" + cor + "' OnMouseOver='this.className=\"links4\";' OnMouseOut='this.className=\"muda" + cor + "\";'>Adicione esta página ao Favoritos</a>");
+            // document.write("<br><div id='contador'>xxx</div>");
+            document.write("<br>\x3Cscript src='http://www.contadorgratis.pog.com.br/contador.php?page=201612281482953863&estilo=web1&tp=1'>\x3C/script>");
+          document.write("</center>");
+        FechaLinha();
+
+          document.write("<tr height='100%'><td background='gifs/amostraforte" + cor + ".gif'></td><td>");
+            document.write("<font size='1' color='#000000' face='Verdana'><center>");
+          document.write("</center></font>") ;
+          document.write("</td><td><img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'></td></tr>");
+
+      document.write("</table>");
+      document.write("</td>");
+    document.write("</tr>");
+      document.write("</table>");
+  };
+  function AbreLinha()
+  {
+    document.write("<tr>");
+      document.write("<td background='gifs/amostraforte" + cor + ".gif'>");
+      document.write("</td>");
+      document.write("<td>");
+  };
+  function FechaLinha()
+  {
+      document.write("</td>");
+      document.write("<td>");
+        document.write("<img src='gifs/topbar2" + cor + ".gif' width='46' height='100%'>");
+      document.write("</td>");
+    document.write("</tr>");
+  };
+  function Novidade(autor,data,noticia,titulo)
+  {
+    document.write("<br><table width='100%' cellpadding='0' cellspacing='1'>");
+      document.write("<tr bgcolor='#FFFFFF'>");
+      document.write("<td valign='middle' width='100%'>");
+        document.write("<font class='muda" + cor + "'><b>" + data + " - " + titulo + "</b></font>");
+      document.write("</td>");
+    document.write("</tr>");
+    document.write("<tr bgcolor='#FFFFFF'>");
+      document.write("<td>");
+        document.write("<font size='1' face='Verdana' color='#000000'><p align='justify'>" + noticia + "</p></font>");
+          document.write("</td>");
+    document.write("</tr>");
+    document.write("<tr bgcolor='#FFFFFF'>");
+      document.write("<td align='right'>");
+        document.write("<font size='1' face='Verdana' color='#00000'>Por </font><font class='muda" + cor + "'>" + autor + "</font>");
+      document.write("</td>");
+    document.write("</tr>");
+    document.write("</table>");
+  };
+  </script>
+      <div style="height: 100%">
+        <script>Conteudo();</script>
+      </div>
+    </td>
+    <td width=155 height="100%" valign="top">
+      <div align="top" style="height: 100%;">
+        <!--#include virtual="right.htm" -->
+      </div>
+    </td>
+  </tr>
+</table>
+<script>
+// var contadorEl = document.getElementById('contador');
+// var contadorScript = document.createElement('script');
+// contadorScript.src = 'http://www.contadorgratis.pog.com.br/contador.php?page=201612281482953863&estilo=web1&tp=1';
+// contador.appendChild(contadorScript)
+</script>
+</body>
+</html>
